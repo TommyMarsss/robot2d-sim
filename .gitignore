@@ -6,3 +6,7 @@ venv/
 .mypy_cache/
 .DS_Store
 *.log
+
+# 生成的 HTML 报告（构建产物，可由 run_ekf.py 重新生成）
+/report_*.html
+trajectory/

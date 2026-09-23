@@ -1,0 +1,1635 @@
+{"type": "meta", "landmarks": {"lm1": [2.0, 2.0], "lm2": [-2.5, 1.5], "lm3": [0.5, -3.0], "lm4": [3.5, -0.5], "lm5": [-1.0, 4.0], "lm6": [18.0, 2.5], "lm7": [21.0, -2.0], "lm8": [23.5, 1.5]}, "initial_state": [0.0, 0.0, 0.0], "initial_cov_diag": [0.25, 0.25, 0.09], "alphas": [0.012, 0.006, 0.01, 0.008], "meas_var": [0.02, 0.005]}
+{"type": "truth", "t": 0.0, "x": 0.0, "y": 0.0, "theta": 0.0}
+{"type": "truth", "t": 0.1, "x": 0.05, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 0.1, "d_trans": 0.059857, "d_rot": -0.003114}
+{"type": "truth", "t": 0.2, "x": 0.1, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 0.2, "d_trans": 0.059105, "d_rot": 0.003982}
+{"type": "obs", "t": 0.2, "id": "lm1", "range": 2.75388, "bearing": 0.85421}
+{"type": "obs", "t": 0.2, "id": "lm2", "range": 3.02965, "bearing": 2.64343}
+{"type": "obs", "t": 0.2, "id": "lm3", "range": 2.85556, "bearing": -1.48924}
+{"type": "obs", "t": 0.2, "id": "lm4", "range": 3.2166, "bearing": -0.08675}
+{"type": "obs", "t": 0.2, "id": "lm5", "range": 4.2443, "bearing": 1.81725}
+{"type": "truth", "t": 0.3, "x": 0.15000000000000002, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 0.3, "d_trans": 0.050944, "d_rot": -0.008572}
+{"type": "truth", "t": 0.4, "x": 0.2, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 0.4, "d_trans": 0.051217, "d_rot": 0.007372}
+{"type": "obs", "t": 0.4, "id": "lm1", "range": 2.34389, "bearing": 0.9721}
+{"type": "obs", "t": 0.4, "id": "lm2", "range": 2.94463, "bearing": 2.6641}
+{"type": "obs", "t": 0.4, "id": "lm3", "range": 3.03645, "bearing": -1.47424}
+{"type": "obs", "t": 0.4, "id": "lm4", "range": 3.39988, "bearing": -0.07928}
+{"type": "obs", "t": 0.4, "id": "lm5", "range": 4.50322, "bearing": 1.80114}
+{"type": "truth", "t": 0.5, "x": 0.25, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 0.5, "d_trans": 0.063728, "d_rot": -0.003473}
+{"type": "truth", "t": 0.6, "x": 0.3, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 0.6, "d_trans": 0.058596, "d_rot": -0.004289}
+{"type": "obs", "t": 0.6, "id": "lm1", "range": 2.51097, "bearing": 0.85015}
+{"type": "obs", "t": 0.6, "id": "lm2", "range": 3.2672, "bearing": 2.58298}
+{"type": "obs", "t": 0.6, "id": "lm3", "range": 3.22584, "bearing": -1.52435}
+{"type": "obs", "t": 0.6, "id": "lm4", "range": 2.8767, "bearing": -0.24305}
+{"type": "obs", "t": 0.6, "id": "lm5", "range": 4.13659, "bearing": 1.87916}
+{"type": "truth", "t": 0.7, "x": 0.35, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 0.7, "d_trans": 0.058643, "d_rot": 0.004159}
+{"type": "truth", "t": 0.8, "x": 0.39999999999999997, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 0.8, "d_trans": 0.056784, "d_rot": 0.010796}
+{"type": "obs", "t": 0.8, "id": "lm1", "range": 2.6245, "bearing": 0.84572}
+{"type": "obs", "t": 0.8, "id": "lm2", "range": 3.27499, "bearing": 2.60926}
+{"type": "obs", "t": 0.8, "id": "lm3", "range": 3.0311, "bearing": -1.51662}
+{"type": "obs", "t": 0.8, "id": "lm4", "range": 3.30383, "bearing": -0.20773}
+{"type": "obs", "t": 0.8, "id": "lm5", "range": 3.93368, "bearing": 1.9047}
+{"type": "truth", "t": 0.9, "x": 0.44999999999999996, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 0.9, "d_trans": 0.048984, "d_rot": 0.010527}
+{"type": "truth", "t": 1.0, "x": 0.49999999999999994, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 1.0, "d_trans": 0.049987, "d_rot": -0.006004}
+{"type": "obs", "t": 1.0, "id": "lm1", "range": 2.38705, "bearing": 0.81824}
+{"type": "obs", "t": 1.0, "id": "lm2", "range": 3.49275, "bearing": 2.65257}
+{"type": "obs", "t": 1.0, "id": "lm3", "range": 2.95297, "bearing": -1.70175}
+{"type": "obs", "t": 1.0, "id": "lm4", "range": 2.82315, "bearing": -0.17771}
+{"type": "obs", "t": 1.0, "id": "lm5", "range": 4.41848, "bearing": 1.84546}
+{"type": "truth", "t": 1.1, "x": 0.5499999999999999, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 1.1, "d_trans": 0.043052, "d_rot": 0.007201}
+{"type": "truth", "t": 1.2, "x": 0.6, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 1.2, "d_trans": 0.055935, "d_rot": 0.008974}
+{"type": "obs", "t": 1.2, "id": "lm1", "range": 2.30487, "bearing": 0.94902}
+{"type": "obs", "t": 1.2, "id": "lm2", "range": 3.36936, "bearing": 2.78182}
+{"type": "obs", "t": 1.2, "id": "lm3", "range": 2.99738, "bearing": -1.67573}
+{"type": "obs", "t": 1.2, "id": "lm4", "range": 2.97938, "bearing": -0.14528}
+{"type": "obs", "t": 1.2, "id": "lm5", "range": 4.3647, "bearing": 1.97571}
+{"type": "truth", "t": 1.3, "x": 0.65, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 1.3, "d_trans": 0.050409, "d_rot": 0.002364}
+{"type": "truth", "t": 1.4, "x": 0.7000000000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 1.4, "d_trans": 0.050848, "d_rot": 0.0127}
+{"type": "obs", "t": 1.4, "id": "lm1", "range": 2.52019, "bearing": 1.05725}
+{"type": "obs", "t": 1.4, "id": "lm2", "range": 3.45559, "bearing": 2.65314}
+{"type": "obs", "t": 1.4, "id": "lm3", "range": 3.06957, "bearing": -1.7528}
+{"type": "obs", "t": 1.4, "id": "lm4", "range": 2.63214, "bearing": -0.25513}
+{"type": "obs", "t": 1.4, "id": "lm5", "range": 4.4118, "bearing": 1.82962}
+{"type": "truth", "t": 1.5, "x": 0.7500000000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 1.5, "d_trans": 0.05764, "d_rot": 0.003826}
+{"type": "truth", "t": 1.6, "x": 0.8000000000000002, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 1.6, "d_trans": 0.054867, "d_rot": 0.004044}
+{"type": "obs", "t": 1.6, "id": "lm1", "range": 2.24973, "bearing": 1.09144}
+{"type": "obs", "t": 1.6, "id": "lm2", "range": 3.66859, "bearing": 2.83476}
+{"type": "obs", "t": 1.6, "id": "lm3", "range": 3.04725, "bearing": -1.74124}
+{"type": "obs", "t": 1.6, "id": "lm4", "range": 2.60179, "bearing": -0.25161}
+{"type": "obs", "t": 1.6, "id": "lm5", "range": 4.21577, "bearing": 2.01086}
+{"type": "truth", "t": 1.7, "x": 0.8500000000000002, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 1.7, "d_trans": 0.048333, "d_rot": 0.001471}
+{"type": "truth", "t": 1.8, "x": 0.9000000000000002, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 1.8, "d_trans": 0.052945, "d_rot": 0.00741}
+{"type": "obs", "t": 1.8, "id": "lm1", "range": 2.30171, "bearing": 1.09593}
+{"type": "obs", "t": 1.8, "id": "lm2", "range": 3.69826, "bearing": 2.6117}
+{"type": "obs", "t": 1.8, "id": "lm3", "range": 2.80723, "bearing": -1.61433}
+{"type": "obs", "t": 1.8, "id": "lm4", "range": 2.64761, "bearing": -0.19816}
+{"type": "obs", "t": 1.8, "id": "lm5", "range": 4.70275, "bearing": 1.97288}
+{"type": "truth", "t": 1.9, "x": 0.9500000000000003, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 1.9, "d_trans": 0.052629, "d_rot": 0.006661}
+{"type": "truth", "t": 2.0, "x": 1.0000000000000002, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 2.0, "d_trans": 0.058002, "d_rot": 0.008449}
+{"type": "obs", "t": 2.0, "id": "lm1", "range": 2.47711, "bearing": 0.99}
+{"type": "obs", "t": 2.0, "id": "lm2", "range": 3.64741, "bearing": 2.71993}
+{"type": "obs", "t": 2.0, "id": "lm3", "range": 3.0657, "bearing": -1.81083}
+{"type": "obs", "t": 2.0, "id": "lm4", "range": 2.65056, "bearing": -0.20502}
+{"type": "obs", "t": 2.0, "id": "lm5", "range": 4.64239, "bearing": 1.99137}
+{"type": "truth", "t": 2.1, "x": 1.0500000000000003, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 2.1, "d_trans": 0.045215, "d_rot": 0.004666}
+{"type": "truth", "t": 2.2, "x": 1.1000000000000003, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 2.2, "d_trans": 0.042006, "d_rot": 0.002715}
+{"type": "obs", "t": 2.2, "id": "lm1", "range": 2.21011, "bearing": 1.15373}
+{"type": "obs", "t": 2.2, "id": "lm2", "range": 3.75771, "bearing": 2.66651}
+{"type": "obs", "t": 2.2, "id": "lm3", "range": 2.79188, "bearing": -1.74274}
+{"type": "obs", "t": 2.2, "id": "lm4", "range": 2.42089, "bearing": -0.2733}
+{"type": "obs", "t": 2.2, "id": "lm5", "range": 4.5554, "bearing": 2.15284}
+{"type": "truth", "t": 2.3, "x": 1.1500000000000004, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 2.3, "d_trans": 0.058137, "d_rot": 0.010626}
+{"type": "truth", "t": 2.4, "x": 1.2000000000000004, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 2.4, "d_trans": 0.050574, "d_rot": -0.000786}
+{"type": "obs", "t": 2.4, "id": "lm1", "range": 2.20843, "bearing": 1.20895}
+{"type": "obs", "t": 2.4, "id": "lm2", "range": 3.96025, "bearing": 2.65667}
+{"type": "obs", "t": 2.4, "id": "lm3", "range": 3.31194, "bearing": -1.82728}
+{"type": "obs", "t": 2.4, "id": "lm4", "range": 2.25321, "bearing": -0.16009}
+{"type": "obs", "t": 2.4, "id": "lm5", "range": 4.43147, "bearing": 1.97981}
+{"type": "truth", "t": 2.5, "x": 1.2500000000000004, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 2.5, "d_trans": 0.040353, "d_rot": 0.004225}
+{"type": "truth", "t": 2.6, "x": 1.3000000000000005, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 2.6, "d_trans": 0.058118, "d_rot": 0.002664}
+{"type": "obs", "t": 2.6, "id": "lm1", "range": 2.29957, "bearing": 1.22256}
+{"type": "obs", "t": 2.6, "id": "lm2", "range": 4.30323, "bearing": 2.80685}
+{"type": "obs", "t": 2.6, "id": "lm3", "range": 3.03883, "bearing": -1.80575}
+{"type": "obs", "t": 2.6, "id": "lm4", "range": 2.43555, "bearing": -0.28258}
+{"type": "obs", "t": 2.6, "id": "lm5", "range": 4.66914, "bearing": 2.09135}
+{"type": "truth", "t": 2.7, "x": 1.3500000000000005, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 2.7, "d_trans": 0.045422, "d_rot": 0.006979}
+{"type": "truth", "t": 2.8, "x": 1.4000000000000006, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 2.8, "d_trans": 0.0529, "d_rot": 0.003218}
+{"type": "obs", "t": 2.8, "id": "lm1", "range": 2.1754, "bearing": 1.12947}
+{"type": "obs", "t": 2.8, "id": "lm2", "range": 4.10325, "bearing": 2.64815}
+{"type": "obs", "t": 2.8, "id": "lm3", "range": 3.29304, "bearing": -1.80392}
+{"type": "obs", "t": 2.8, "id": "lm4", "range": 1.97803, "bearing": -0.22964}
+{"type": "obs", "t": 2.8, "id": "lm5", "range": 4.6083, "bearing": 2.05506}
+{"type": "truth", "t": 2.9, "x": 1.4500000000000006, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 2.9, "d_trans": 0.050533, "d_rot": 0.018112}
+{"type": "truth", "t": 3.0, "x": 1.5000000000000007, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 3.0, "d_trans": 0.046249, "d_rot": 0.006517}
+{"type": "obs", "t": 3.0, "id": "lm1", "range": 2.1411, "bearing": 1.46716}
+{"type": "obs", "t": 3.0, "id": "lm2", "range": 4.15208, "bearing": 2.7178}
+{"type": "obs", "t": 3.0, "id": "lm3", "range": 3.47183, "bearing": -1.98553}
+{"type": "obs", "t": 3.0, "id": "lm4", "range": 1.70582, "bearing": -0.24747}
+{"type": "obs", "t": 3.0, "id": "lm5", "range": 4.61455, "bearing": 1.95257}
+{"type": "truth", "t": 3.1, "x": 1.5500000000000007, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 3.1, "d_trans": 0.043853, "d_rot": -0.00177}
+{"type": "truth", "t": 3.2, "x": 1.6000000000000008, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 3.2, "d_trans": 0.053171, "d_rot": 0.001524}
+{"type": "obs", "t": 3.2, "id": "lm1", "range": 1.93116, "bearing": 1.34784}
+{"type": "obs", "t": 3.2, "id": "lm2", "range": 4.20835, "bearing": 2.78971}
+{"type": "obs", "t": 3.2, "id": "lm3", "range": 3.16684, "bearing": -1.99369}
+{"type": "obs", "t": 3.2, "id": "lm4", "range": 1.82451, "bearing": -0.24172}
+{"type": "obs", "t": 3.2, "id": "lm5", "range": 4.59046, "bearing": 2.09701}
+{"type": "truth", "t": 3.3, "x": 1.6500000000000008, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 3.3, "d_trans": 0.048585, "d_rot": 0.000504}
+{"type": "truth", "t": 3.4, "x": 1.7000000000000008, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 3.4, "d_trans": 0.041859, "d_rot": 0.00966}
+{"type": "obs", "t": 3.4, "id": "lm1", "range": 1.95333, "bearing": 1.48308}
+{"type": "obs", "t": 3.4, "id": "lm2", "range": 4.34134, "bearing": 2.85829}
+{"type": "obs", "t": 3.4, "id": "lm3", "range": 3.5151, "bearing": -1.90447}
+{"type": "obs", "t": 3.4, "id": "lm4", "range": 1.59843, "bearing": -0.29044}
+{"type": "obs", "t": 3.4, "id": "lm5", "range": 4.85797, "bearing": 2.18878}
+{"type": "truth", "t": 3.5, "x": 1.7500000000000009, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 3.5, "d_trans": 0.049443, "d_rot": 0.003313}
+{"type": "truth", "t": 3.6, "x": 1.800000000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 3.6, "d_trans": 0.044928, "d_rot": 0.012045}
+{"type": "obs", "t": 3.6, "id": "lm1", "range": 2.06601, "bearing": 1.40822}
+{"type": "obs", "t": 3.6, "id": "lm2", "range": 4.46319, "bearing": 2.90051}
+{"type": "obs", "t": 3.6, "id": "lm3", "range": 3.19843, "bearing": -2.03601}
+{"type": "obs", "t": 3.6, "id": "lm4", "range": 1.78, "bearing": -0.22439}
+{"type": "obs", "t": 3.6, "id": "lm5", "range": 4.81457, "bearing": 2.15193}
+{"type": "truth", "t": 3.7, "x": 1.850000000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 3.7, "d_trans": 0.052811, "d_rot": 0.012937}
+{"type": "truth", "t": 3.8, "x": 1.900000000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 3.8, "d_trans": 0.044321, "d_rot": -0.001097}
+{"type": "obs", "t": 3.8, "id": "lm1", "range": 2.07693, "bearing": 1.50232}
+{"type": "obs", "t": 3.8, "id": "lm2", "range": 4.59492, "bearing": 2.78516}
+{"type": "obs", "t": 3.8, "id": "lm3", "range": 3.326, "bearing": -1.8636}
+{"type": "obs", "t": 3.8, "id": "lm4", "range": 1.6434, "bearing": -0.32099}
+{"type": "obs", "t": 3.8, "id": "lm5", "range": 4.86818, "bearing": 2.2889}
+{"type": "truth", "t": 3.9, "x": 1.950000000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 3.9, "d_trans": 0.050004, "d_rot": -0.004669}
+{"type": "truth", "t": 4.0, "x": 2.000000000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 4.0, "d_trans": 0.051061, "d_rot": 0.001803}
+{"type": "obs", "t": 4.0, "id": "lm1", "range": 1.79318, "bearing": 1.58679}
+{"type": "obs", "t": 4.0, "id": "lm2", "range": 4.75957, "bearing": 2.90764}
+{"type": "obs", "t": 4.0, "id": "lm3", "range": 3.45141, "bearing": -2.10582}
+{"type": "obs", "t": 4.0, "id": "lm4", "range": 1.58637, "bearing": -0.30074}
+{"type": "obs", "t": 4.0, "id": "lm5", "range": 5.11071, "bearing": 2.26463}
+{"type": "truth", "t": 4.1, "x": 2.0500000000000007, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 4.1, "d_trans": 0.051417, "d_rot": 0.003837}
+{"type": "truth", "t": 4.2, "x": 2.1000000000000005, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 4.2, "d_trans": 0.047979, "d_rot": 0.002606}
+{"type": "obs", "t": 4.2, "id": "lm1", "range": 1.93491, "bearing": 1.63995}
+{"type": "obs", "t": 4.2, "id": "lm2", "range": 4.73514, "bearing": 2.76903}
+{"type": "obs", "t": 4.2, "id": "lm3", "range": 3.30017, "bearing": -2.03628}
+{"type": "obs", "t": 4.2, "id": "lm4", "range": 1.77506, "bearing": -0.35231}
+{"type": "obs", "t": 4.2, "id": "lm5", "range": 5.01359, "bearing": 2.20672}
+{"type": "truth", "t": 4.3, "x": 2.1500000000000004, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 4.3, "d_trans": 0.042073, "d_rot": 0.008691}
+{"type": "truth", "t": 4.4, "x": 2.2, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 4.4, "d_trans": 0.050183, "d_rot": 0.011066}
+{"type": "obs", "t": 4.4, "id": "lm1", "range": 2.00265, "bearing": 1.67146}
+{"type": "obs", "t": 4.4, "id": "lm2", "range": 4.93998, "bearing": 2.83711}
+{"type": "obs", "t": 4.4, "id": "lm3", "range": 3.3461, "bearing": -1.99038}
+{"type": "obs", "t": 4.4, "id": "lm4", "range": 1.4663, "bearing": -0.34566}
+{"type": "obs", "t": 4.4, "id": "lm5", "range": 5.06347, "bearing": 2.25929}
+{"type": "truth", "t": 4.5, "x": 2.25, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 4.5, "d_trans": 0.059526, "d_rot": 0.015333}
+{"type": "truth", "t": 4.6, "x": 2.3, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 4.6, "d_trans": 0.045825, "d_rot": 0.014072}
+{"type": "obs", "t": 4.6, "id": "lm1", "range": 1.98461, "bearing": 1.68416}
+{"type": "obs", "t": 4.6, "id": "lm2", "range": 5.19469, "bearing": 2.82463}
+{"type": "obs", "t": 4.6, "id": "lm3", "range": 3.10013, "bearing": -2.25205}
+{"type": "obs", "t": 4.6, "id": "lm4", "range": 1.3437, "bearing": -0.31447}
+{"type": "obs", "t": 4.6, "id": "lm5", "range": 5.24951, "bearing": 2.21651}
+{"type": "truth", "t": 4.7, "x": 2.3499999999999996, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 4.7, "d_trans": 0.039918, "d_rot": 0.007612}
+{"type": "truth", "t": 4.8, "x": 2.3999999999999995, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 4.8, "d_trans": 0.050918, "d_rot": 0.003306}
+{"type": "obs", "t": 4.8, "id": "lm1", "range": 2.06612, "bearing": 1.86149}
+{"type": "obs", "t": 4.8, "id": "lm2", "range": 5.18544, "bearing": 2.81579}
+{"type": "obs", "t": 4.8, "id": "lm3", "range": 3.66809, "bearing": -2.18606}
+{"type": "obs", "t": 4.8, "id": "lm4", "range": 1.38104, "bearing": -0.52592}
+{"type": "obs", "t": 4.8, "id": "lm5", "range": 5.31842, "bearing": 2.27696}
+{"type": "truth", "t": 4.9, "x": 2.4499999999999993, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 4.9, "d_trans": 0.048907, "d_rot": 0.010127}
+{"type": "truth", "t": 5.0, "x": 2.499999999999999, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 5.0, "d_trans": 0.050382, "d_rot": -0.005271}
+{"type": "obs", "t": 5.0, "id": "lm1", "range": 2.33701, "bearing": 1.94632}
+{"type": "obs", "t": 5.0, "id": "lm2", "range": 4.97335, "bearing": 2.86915}
+{"type": "obs", "t": 5.0, "id": "lm3", "range": 3.47653, "bearing": -2.1834}
+{"type": "obs", "t": 5.0, "id": "lm4", "range": 1.30053, "bearing": -0.41602}
+{"type": "obs", "t": 5.0, "id": "lm5", "range": 5.1347, "bearing": 2.36162}
+{"type": "truth", "t": 5.1, "x": 2.549999999999999, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 5.1, "d_trans": 0.05103, "d_rot": 0.001738}
+{"type": "truth", "t": 5.2, "x": 2.5999999999999988, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 5.2, "d_trans": 0.046968, "d_rot": 0.003516}
+{"type": "obs", "t": 5.2, "id": "lm1", "range": 2.17418, "bearing": 1.86331}
+{"type": "obs", "t": 5.2, "id": "lm2", "range": 5.21738, "bearing": 2.93874}
+{"type": "obs", "t": 5.2, "id": "lm3", "range": 3.55544, "bearing": -2.20271}
+{"type": "obs", "t": 5.2, "id": "lm4", "range": 1.02929, "bearing": -0.43662}
+{"type": "obs", "t": 5.2, "id": "lm5", "range": 5.25354, "bearing": 2.29207}
+{"type": "truth", "t": 5.3, "x": 2.6499999999999986, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 5.3, "d_trans": 0.04983, "d_rot": -0.008734}
+{"type": "truth", "t": 5.4, "x": 2.6999999999999984, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 5.4, "d_trans": 0.054024, "d_rot": 0.009263}
+{"type": "obs", "t": 5.4, "id": "lm1", "range": 1.92849, "bearing": 1.81886}
+{"type": "obs", "t": 5.4, "id": "lm2", "range": 5.33912, "bearing": 2.93743}
+{"type": "obs", "t": 5.4, "id": "lm3", "range": 3.8432, "bearing": -2.28473}
+{"type": "obs", "t": 5.4, "id": "lm4", "range": 0.81906, "bearing": -0.82339}
+{"type": "obs", "t": 5.4, "id": "lm5", "range": 5.7358, "bearing": 2.37048}
+{"type": "truth", "t": 5.5, "x": 2.7499999999999982, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 5.5, "d_trans": 0.052027, "d_rot": 0.011013}
+{"type": "truth", "t": 5.6, "x": 2.799999999999998, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 5.6, "d_trans": 0.052997, "d_rot": 0.01126}
+{"type": "obs", "t": 5.6, "id": "lm1", "range": 2.03626, "bearing": 2.06668}
+{"type": "obs", "t": 5.6, "id": "lm2", "range": 5.49218, "bearing": 2.98968}
+{"type": "obs", "t": 5.6, "id": "lm3", "range": 3.8316, "bearing": -2.231}
+{"type": "obs", "t": 5.6, "id": "lm4", "range": 0.51057, "bearing": -0.67835}
+{"type": "obs", "t": 5.6, "id": "lm5", "range": 5.56743, "bearing": 2.35936}
+{"type": "truth", "t": 5.7, "x": 2.849999999999998, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 5.7, "d_trans": 0.046623, "d_rot": -0.002717}
+{"type": "truth", "t": 5.8, "x": 2.8999999999999977, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 5.8, "d_trans": 0.03809, "d_rot": 0.010403}
+{"type": "obs", "t": 5.8, "id": "lm1", "range": 1.92035, "bearing": 2.0656}
+{"type": "obs", "t": 5.8, "id": "lm2", "range": 5.35699, "bearing": 2.85528}
+{"type": "obs", "t": 5.8, "id": "lm3", "range": 3.76483, "bearing": -2.12087}
+{"type": "obs", "t": 5.8, "id": "lm4", "range": 0.69384, "bearing": -0.64651}
+{"type": "obs", "t": 5.8, "id": "lm5", "range": 5.64814, "bearing": 2.40405}
+{"type": "truth", "t": 5.9, "x": 2.9499999999999975, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 5.9, "d_trans": 0.059238, "d_rot": 0.004138}
+{"type": "truth", "t": 6.0, "x": 2.9999999999999973, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 6.0, "d_trans": 0.054439, "d_rot": 0.002482}
+{"type": "obs", "t": 6.0, "id": "lm1", "range": 2.3434, "bearing": 2.07718}
+{"type": "obs", "t": 6.0, "id": "lm2", "range": 5.92926, "bearing": 2.79436}
+{"type": "obs", "t": 6.0, "id": "lm3", "range": 3.63008, "bearing": -2.11459}
+{"type": "obs", "t": 6.0, "id": "lm4", "range": 0.84726, "bearing": -0.65779}
+{"type": "obs", "t": 6.0, "id": "lm5", "range": 5.66727, "bearing": 2.26651}
+{"type": "truth", "t": 6.1, "x": 3.049999999999997, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 6.1, "d_trans": 0.047186, "d_rot": 0.002373}
+{"type": "truth", "t": 6.2, "x": 3.099999999999997, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 6.2, "d_trans": 0.056058, "d_rot": 0.009952}
+{"type": "obs", "t": 6.2, "id": "lm1", "range": 2.55575, "bearing": 2.19079}
+{"type": "obs", "t": 6.2, "id": "lm2", "range": 5.74366, "bearing": 2.95291}
+{"type": "obs", "t": 6.2, "id": "lm3", "range": 4.24369, "bearing": -2.35257}
+{"type": "obs", "t": 6.2, "id": "lm4", "range": 0.79282, "bearing": -0.90382}
+{"type": "obs", "t": 6.2, "id": "lm5", "range": 5.60088, "bearing": 2.4384}
+{"type": "truth", "t": 6.3, "x": 3.149999999999997, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 6.3, "d_trans": 0.053517, "d_rot": -0.001763}
+{"type": "truth", "t": 6.4, "x": 3.1999999999999966, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 6.4, "d_trans": 0.044514, "d_rot": 0.011694}
+{"type": "obs", "t": 6.4, "id": "lm1", "range": 2.30352, "bearing": 2.14357}
+{"type": "obs", "t": 6.4, "id": "lm2", "range": 6.00434, "bearing": 2.90176}
+{"type": "obs", "t": 6.4, "id": "lm3", "range": 3.76744, "bearing": -2.30633}
+{"type": "obs", "t": 6.4, "id": "lm4", "range": 0.692, "bearing": -0.94161}
+{"type": "obs", "t": 6.4, "id": "lm5", "range": 5.5666, "bearing": 2.32718}
+{"type": "truth", "t": 6.5, "x": 3.2499999999999964, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 6.5, "d_trans": 0.049398, "d_rot": 0.012083}
+{"type": "truth", "t": 6.6, "x": 3.2999999999999963, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 6.6, "d_trans": 0.042844, "d_rot": 0.003098}
+{"type": "obs", "t": 6.6, "id": "lm1", "range": 2.29086, "bearing": 2.13545}
+{"type": "obs", "t": 6.6, "id": "lm2", "range": 5.96131, "bearing": 2.82815}
+{"type": "obs", "t": 6.6, "id": "lm3", "range": 4.29968, "bearing": -2.38166}
+{"type": "obs", "t": 6.6, "id": "lm4", "range": 0.4236, "bearing": -1.18422}
+{"type": "obs", "t": 6.6, "id": "lm5", "range": 6.05247, "bearing": 2.34551}
+{"type": "truth", "t": 6.7, "x": 3.349999999999996, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 6.7, "d_trans": 0.050314, "d_rot": 0.001236}
+{"type": "truth", "t": 6.8, "x": 3.399999999999996, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 6.8, "d_trans": 0.050745, "d_rot": 0.003397}
+{"type": "obs", "t": 6.8, "id": "lm1", "range": 2.45742, "bearing": 2.28338}
+{"type": "obs", "t": 6.8, "id": "lm3", "range": 4.18381, "bearing": -2.49655}
+{"type": "obs", "t": 6.8, "id": "lm4", "range": 0.66043, "bearing": -1.30542}
+{"type": "obs", "t": 6.8, "id": "lm5", "range": 5.76653, "bearing": 2.5114}
+{"type": "truth", "t": 6.9, "x": 3.4499999999999957, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 6.9, "d_trans": 0.051103, "d_rot": 0.004422}
+{"type": "truth", "t": 7.0, "x": 3.4999999999999956, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 7.0, "d_trans": 0.043607, "d_rot": 0.003034}
+{"type": "obs", "t": 7.0, "id": "lm1", "range": 2.23789, "bearing": 2.20564}
+{"type": "obs", "t": 7.0, "id": "lm3", "range": 4.20127, "bearing": -2.39928}
+{"type": "obs", "t": 7.0, "id": "lm4", "range": 0.54331, "bearing": -1.57413}
+{"type": "truth", "t": 7.1, "x": 3.5499999999999954, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 7.1, "d_trans": 0.054865, "d_rot": 0.000269}
+{"type": "truth", "t": 7.2, "x": 3.599999999999995, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 7.2, "d_trans": 0.048888, "d_rot": 0.003052}
+{"type": "obs", "t": 7.2, "id": "lm1", "range": 2.3844, "bearing": 2.24019}
+{"type": "obs", "t": 7.2, "id": "lm3", "range": 4.33846, "bearing": -2.37149}
+{"type": "obs", "t": 7.2, "id": "lm4", "range": 0.63441, "bearing": -1.77984}
+{"type": "truth", "t": 7.3, "x": 3.649999999999995, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 7.3, "d_trans": 0.065583, "d_rot": 0.00261}
+{"type": "truth", "t": 7.4, "x": 3.699999999999995, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 7.4, "d_trans": 0.06179, "d_rot": 0.004832}
+{"type": "obs", "t": 7.4, "id": "lm1", "range": 2.9135, "bearing": 2.23732}
+{"type": "obs", "t": 7.4, "id": "lm3", "range": 4.21558, "bearing": -2.4167}
+{"type": "obs", "t": 7.4, "id": "lm4", "range": 0.58098, "bearing": -1.90379}
+{"type": "truth", "t": 7.5, "x": 3.7499999999999947, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 7.5, "d_trans": 0.053801, "d_rot": 0.007281}
+{"type": "truth", "t": 7.6, "x": 3.7999999999999945, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 7.6, "d_trans": 0.056994, "d_rot": 0.006664}
+{"type": "obs", "t": 7.6, "id": "lm1", "range": 2.48453, "bearing": 2.31589}
+{"type": "obs", "t": 7.6, "id": "lm3", "range": 4.38627, "bearing": -2.41185}
+{"type": "obs", "t": 7.6, "id": "lm4", "range": 0.53923, "bearing": -2.10824}
+{"type": "truth", "t": 7.7, "x": 3.8499999999999943, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 7.7, "d_trans": 0.047774, "d_rot": 0.005974}
+{"type": "truth", "t": 7.8, "x": 3.899999999999994, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 7.8, "d_trans": 0.056245, "d_rot": 0.004311}
+{"type": "obs", "t": 7.8, "id": "lm1", "range": 2.74421, "bearing": 2.26604}
+{"type": "obs", "t": 7.8, "id": "lm3", "range": 4.7426, "bearing": -2.35262}
+{"type": "obs", "t": 7.8, "id": "lm4", "range": 0.61749, "bearing": -2.27433}
+{"type": "truth", "t": 7.9, "x": 3.949999999999994, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 7.9, "d_trans": 0.044275, "d_rot": -0.002463}
+{"type": "truth", "t": 8.0, "x": 3.999999999999994, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 8.0, "d_trans": 0.057249, "d_rot": 0.006578}
+{"type": "obs", "t": 8.0, "id": "lm1", "range": 2.88448, "bearing": 2.41827}
+{"type": "obs", "t": 8.0, "id": "lm3", "range": 4.82484, "bearing": -2.42741}
+{"type": "obs", "t": 8.0, "id": "lm4", "range": 0.80132, "bearing": -2.43516}
+{"type": "truth", "t": 8.1, "x": 4.049999999999994, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 8.1, "d_trans": 0.038329, "d_rot": 0.005743}
+{"type": "truth", "t": 8.2, "x": 4.099999999999993, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 8.2, "d_trans": 0.047244, "d_rot": -0.001606}
+{"type": "obs", "t": 8.2, "id": "lm1", "range": 3.06157, "bearing": 2.42138}
+{"type": "obs", "t": 8.2, "id": "lm3", "range": 4.60717, "bearing": -2.38259}
+{"type": "obs", "t": 8.2, "id": "lm4", "range": 0.70474, "bearing": -2.30811}
+{"type": "truth", "t": 8.3, "x": 4.149999999999993, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 8.3, "d_trans": 0.055168, "d_rot": 0.006027}
+{"type": "truth", "t": 8.4, "x": 4.199999999999993, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 8.4, "d_trans": 0.052838, "d_rot": 0.005808}
+{"type": "obs", "t": 8.4, "id": "lm1", "range": 3.25193, "bearing": 2.55483}
+{"type": "obs", "t": 8.4, "id": "lm3", "range": 4.97958, "bearing": -2.47562}
+{"type": "obs", "t": 8.4, "id": "lm4", "range": 0.69636, "bearing": -2.59432}
+{"type": "truth", "t": 8.5, "x": 4.249999999999993, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 8.5, "d_trans": 0.037855, "d_rot": 0.009952}
+{"type": "truth", "t": 8.6, "x": 4.299999999999993, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 8.6, "d_trans": 0.052593, "d_rot": 0.001182}
+{"type": "obs", "t": 8.6, "id": "lm1", "range": 3.15247, "bearing": 2.46199}
+{"type": "obs", "t": 8.6, "id": "lm3", "range": 4.85436, "bearing": -2.56732}
+{"type": "obs", "t": 8.6, "id": "lm4", "range": 1.06254, "bearing": -2.70675}
+{"type": "truth", "t": 8.7, "x": 4.3499999999999925, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 8.7, "d_trans": 0.049311, "d_rot": 0.001742}
+{"type": "truth", "t": 8.8, "x": 4.399999999999992, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 8.8, "d_trans": 0.039867, "d_rot": 0.00038}
+{"type": "obs", "t": 8.8, "id": "lm1", "range": 3.0641, "bearing": 2.57061}
+{"type": "obs", "t": 8.8, "id": "lm3", "range": 4.85172, "bearing": -2.60728}
+{"type": "obs", "t": 8.8, "id": "lm4", "range": 0.93536, "bearing": -2.65748}
+{"type": "truth", "t": 8.9, "x": 4.449999999999992, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 8.9, "d_trans": 0.052802, "d_rot": -0.004251}
+{"type": "truth", "t": 9.0, "x": 4.499999999999992, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 9.0, "d_trans": 0.048851, "d_rot": 0.008431}
+{"type": "obs", "t": 9.0, "id": "lm1", "range": 3.11391, "bearing": 2.49643}
+{"type": "obs", "t": 9.0, "id": "lm3", "range": 5.08278, "bearing": -2.44088}
+{"type": "obs", "t": 9.0, "id": "lm4", "range": 1.39367, "bearing": -2.70101}
+{"type": "truth", "t": 9.1, "x": 4.549999999999992, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 9.1, "d_trans": 0.055209, "d_rot": 0.000867}
+{"type": "truth", "t": 9.2, "x": 4.599999999999992, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 9.2, "d_trans": 0.046647, "d_rot": -0.005183}
+{"type": "obs", "t": 9.2, "id": "lm1", "range": 3.5162, "bearing": 2.24591}
+{"type": "obs", "t": 9.2, "id": "lm3", "range": 4.87992, "bearing": -2.37581}
+{"type": "obs", "t": 9.2, "id": "lm4", "range": 1.07265, "bearing": -2.73742}
+{"type": "truth", "t": 9.3, "x": 4.6499999999999915, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 9.3, "d_trans": 0.050461, "d_rot": 0.002554}
+{"type": "truth", "t": 9.4, "x": 4.699999999999991, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 9.4, "d_trans": 0.045567, "d_rot": 0.010016}
+{"type": "obs", "t": 9.4, "id": "lm1", "range": 3.18365, "bearing": 2.45653}
+{"type": "obs", "t": 9.4, "id": "lm3", "range": 4.85431, "bearing": -2.4402}
+{"type": "obs", "t": 9.4, "id": "lm4", "range": 1.05227, "bearing": -2.59589}
+{"type": "truth", "t": 9.5, "x": 4.749999999999991, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 9.5, "d_trans": 0.053219, "d_rot": 0.005485}
+{"type": "truth", "t": 9.6, "x": 4.799999999999991, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 9.6, "d_trans": 0.046186, "d_rot": 0.009275}
+{"type": "obs", "t": 9.6, "id": "lm1", "range": 3.69874, "bearing": 2.5519}
+{"type": "obs", "t": 9.6, "id": "lm3", "range": 5.10075, "bearing": -2.63204}
+{"type": "obs", "t": 9.6, "id": "lm4", "range": 1.47006, "bearing": -2.83731}
+{"type": "truth", "t": 9.7, "x": 4.849999999999991, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 9.7, "d_trans": 0.053184, "d_rot": 0.00439}
+{"type": "truth", "t": 9.8, "x": 4.899999999999991, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 9.8, "d_trans": 0.045455, "d_rot": 0.01094}
+{"type": "obs", "t": 9.8, "id": "lm1", "range": 3.36156, "bearing": 2.36604}
+{"type": "obs", "t": 9.8, "id": "lm3", "range": 5.3114, "bearing": -2.70198}
+{"type": "obs", "t": 9.8, "id": "lm4", "range": 1.8435, "bearing": -2.81283}
+{"type": "truth", "t": 9.9, "x": 4.94999999999999, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 9.9, "d_trans": 0.047922, "d_rot": 0.006511}
+{"type": "truth", "t": 10.0, "x": 4.99999999999999, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 10.0, "d_trans": 0.054668, "d_rot": 0.004662}
+{"type": "obs", "t": 10.0, "id": "lm1", "range": 3.67568, "bearing": 2.5203}
+{"type": "obs", "t": 10.0, "id": "lm3", "range": 5.32027, "bearing": -2.52115}
+{"type": "obs", "t": 10.0, "id": "lm4", "range": 1.60426, "bearing": -2.75803}
+{"type": "truth", "t": 10.1, "x": 5.04999999999999, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 10.1, "d_trans": 0.051806, "d_rot": 0.003336}
+{"type": "truth", "t": 10.2, "x": 5.09999999999999, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 10.2, "d_trans": 0.050458, "d_rot": 0.009843}
+{"type": "obs", "t": 10.2, "id": "lm1", "range": 3.61451, "bearing": 2.48927}
+{"type": "obs", "t": 10.2, "id": "lm3", "range": 5.43727, "bearing": -2.68545}
+{"type": "obs", "t": 10.2, "id": "lm4", "range": 1.85188, "bearing": -2.93206}
+{"type": "truth", "t": 10.3, "x": 5.14999999999999, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 10.3, "d_trans": 0.043773, "d_rot": 0.002973}
+{"type": "truth", "t": 10.4, "x": 5.1999999999999895, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 10.4, "d_trans": 0.046032, "d_rot": 0.002913}
+{"type": "obs", "t": 10.4, "id": "lm1", "range": 3.64099, "bearing": 2.66709}
+{"type": "obs", "t": 10.4, "id": "lm3", "range": 5.53469, "bearing": -2.57562}
+{"type": "obs", "t": 10.4, "id": "lm4", "range": 1.70864, "bearing": -2.82959}
+{"type": "truth", "t": 10.5, "x": 5.249999999999989, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 10.5, "d_trans": 0.046872, "d_rot": 0.002833}
+{"type": "truth", "t": 10.6, "x": 5.299999999999989, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 10.6, "d_trans": 0.053378, "d_rot": 0.00729}
+{"type": "obs", "t": 10.6, "id": "lm1", "range": 3.88241, "bearing": 2.49628}
+{"type": "obs", "t": 10.6, "id": "lm3", "range": 5.49666, "bearing": -2.60315}
+{"type": "obs", "t": 10.6, "id": "lm4", "range": 1.74121, "bearing": -2.89253}
+{"type": "truth", "t": 10.7, "x": 5.349999999999989, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 10.7, "d_trans": 0.057871, "d_rot": 0.002332}
+{"type": "truth", "t": 10.8, "x": 5.399999999999989, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 10.8, "d_trans": 0.043947, "d_rot": 0.001895}
+{"type": "obs", "t": 10.8, "id": "lm1", "range": 3.79638, "bearing": 2.60793}
+{"type": "obs", "t": 10.8, "id": "lm3", "range": 5.77355, "bearing": -2.59856}
+{"type": "obs", "t": 10.8, "id": "lm4", "range": 1.89522, "bearing": -2.95111}
+{"type": "truth", "t": 10.9, "x": 5.449999999999989, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 10.9, "d_trans": 0.061214, "d_rot": -0.003374}
+{"type": "truth", "t": 11.0, "x": 5.4999999999999885, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 11.0, "d_trans": 0.0454, "d_rot": 0.007855}
+{"type": "obs", "t": 11.0, "id": "lm1", "range": 3.99813, "bearing": 2.66236}
+{"type": "obs", "t": 11.0, "id": "lm3", "range": 6.08514, "bearing": -2.449}
+{"type": "obs", "t": 11.0, "id": "lm4", "range": 1.84892, "bearing": -2.86816}
+{"type": "truth", "t": 11.1, "x": 5.549999999999988, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 11.1, "d_trans": 0.051659, "d_rot": -0.003911}
+{"type": "truth", "t": 11.2, "x": 5.599999999999988, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 11.2, "d_trans": 0.053803, "d_rot": 0.002358}
+{"type": "obs", "t": 11.2, "id": "lm1", "range": 4.18824, "bearing": 2.49893}
+{"type": "obs", "t": 11.2, "id": "lm3", "range": 6.03655, "bearing": -2.65996}
+{"type": "obs", "t": 11.2, "id": "lm4", "range": 2.00298, "bearing": -3.02499}
+{"type": "truth", "t": 11.3, "x": 5.649999999999988, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 11.3, "d_trans": 0.056009, "d_rot": 0.009042}
+{"type": "truth", "t": 11.4, "x": 5.699999999999988, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 11.4, "d_trans": 0.045649, "d_rot": 0.001712}
+{"type": "obs", "t": 11.4, "id": "lm1", "range": 4.30064, "bearing": 2.67844}
+{"type": "obs", "t": 11.4, "id": "lm4", "range": 2.31759, "bearing": -2.90588}
+{"type": "truth", "t": 11.5, "x": 5.749999999999988, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 11.5, "d_trans": 0.051454, "d_rot": -0.002456}
+{"type": "truth", "t": 11.6, "x": 5.799999999999987, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 11.6, "d_trans": 0.0491, "d_rot": 0.008295}
+{"type": "obs", "t": 11.6, "id": "lm1", "range": 4.19287, "bearing": 2.58633}
+{"type": "obs", "t": 11.6, "id": "lm4", "range": 2.38597, "bearing": -3.05497}
+{"type": "truth", "t": 11.7, "x": 5.849999999999987, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 11.7, "d_trans": 0.04955, "d_rot": 0.007928}
+{"type": "truth", "t": 11.8, "x": 5.899999999999987, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 11.8, "d_trans": 0.043406, "d_rot": 0.002063}
+{"type": "obs", "t": 11.8, "id": "lm1", "range": 4.49669, "bearing": 2.60633}
+{"type": "obs", "t": 11.8, "id": "lm4", "range": 2.43714, "bearing": -2.88581}
+{"type": "truth", "t": 11.9, "x": 5.949999999999987, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 11.9, "d_trans": 0.054805, "d_rot": 0.010097}
+{"type": "truth", "t": 12.0, "x": 5.999999999999987, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 12.0, "d_trans": 0.054437, "d_rot": 0.011083}
+{"type": "obs", "t": 12.0, "id": "lm1", "range": 4.42456, "bearing": 2.67618}
+{"type": "obs", "t": 12.0, "id": "lm4", "range": 2.52817, "bearing": -3.03106}
+{"type": "truth", "t": 12.1, "x": 6.0499999999999865, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 12.1, "d_trans": 0.048625, "d_rot": 0.004358}
+{"type": "truth", "t": 12.2, "x": 6.099999999999986, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 12.2, "d_trans": 0.038275, "d_rot": 0.005598}
+{"type": "obs", "t": 12.2, "id": "lm1", "range": 4.745, "bearing": 2.67702}
+{"type": "obs", "t": 12.2, "id": "lm4", "range": 2.43308, "bearing": -2.93302}
+{"type": "truth", "t": 12.3, "x": 6.149999999999986, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 12.3, "d_trans": 0.060298, "d_rot": 0.004331}
+{"type": "truth", "t": 12.4, "x": 6.199999999999986, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 12.4, "d_trans": 0.051778, "d_rot": 0.000389}
+{"type": "obs", "t": 12.4, "id": "lm1", "range": 4.58706, "bearing": 2.64345}
+{"type": "obs", "t": 12.4, "id": "lm4", "range": 2.79346, "bearing": -2.97644}
+{"type": "truth", "t": 12.5, "x": 6.249999999999986, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 12.5, "d_trans": 0.055152, "d_rot": 0.013419}
+{"type": "truth", "t": 12.6, "x": 6.299999999999986, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 12.6, "d_trans": 0.055432, "d_rot": 0.016091}
+{"type": "obs", "t": 12.6, "id": "lm1", "range": 4.83085, "bearing": 2.61254}
+{"type": "obs", "t": 12.6, "id": "lm4", "range": 2.83553, "bearing": -3.05668}
+{"type": "truth", "t": 12.7, "x": 6.349999999999985, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 12.7, "d_trans": 0.050647, "d_rot": -0.003902}
+{"type": "truth", "t": 12.8, "x": 6.399999999999985, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 12.8, "d_trans": 0.037604, "d_rot": 0.010201}
+{"type": "obs", "t": 12.8, "id": "lm1", "range": 4.55157, "bearing": 2.78422}
+{"type": "obs", "t": 12.8, "id": "lm4", "range": 2.72899, "bearing": -2.89607}
+{"type": "truth", "t": 12.9, "x": 6.449999999999985, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 12.9, "d_trans": 0.044844, "d_rot": 0.005518}
+{"type": "truth", "t": 13.0, "x": 6.499999999999985, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 13.0, "d_trans": 0.050416, "d_rot": 0.004905}
+{"type": "obs", "t": 13.0, "id": "lm1", "range": 5.05252, "bearing": 2.78799}
+{"type": "obs", "t": 13.0, "id": "lm4", "range": 2.90372, "bearing": -3.01361}
+{"type": "truth", "t": 13.1, "x": 6.549999999999985, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 13.1, "d_trans": 0.051757, "d_rot": 0.008255}
+{"type": "truth", "t": 13.2, "x": 6.5999999999999845, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 13.2, "d_trans": 0.052664, "d_rot": 0.011005}
+{"type": "obs", "t": 13.2, "id": "lm1", "range": 4.95326, "bearing": 2.84027}
+{"type": "obs", "t": 13.2, "id": "lm4", "range": 3.14315, "bearing": -2.96547}
+{"type": "truth", "t": 13.3, "x": 6.649999999999984, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 13.3, "d_trans": 0.055043, "d_rot": 0.007121}
+{"type": "truth", "t": 13.4, "x": 6.699999999999984, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 13.4, "d_trans": 0.046605, "d_rot": 0.012733}
+{"type": "obs", "t": 13.4, "id": "lm1", "range": 5.02243, "bearing": 2.79541}
+{"type": "obs", "t": 13.4, "id": "lm4", "range": 3.26599, "bearing": -2.97785}
+{"type": "truth", "t": 13.5, "x": 6.749999999999984, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 13.5, "d_trans": 0.048573, "d_rot": 0.009909}
+{"type": "truth", "t": 13.6, "x": 6.799999999999984, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 13.6, "d_trans": 0.054576, "d_rot": 0.000482}
+{"type": "obs", "t": 13.6, "id": "lm1", "range": 5.13839, "bearing": 2.67757}
+{"type": "obs", "t": 13.6, "id": "lm4", "range": 3.50724, "bearing": -2.97157}
+{"type": "truth", "t": 13.7, "x": 6.849999999999984, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 13.7, "d_trans": 0.057341, "d_rot": -0.002161}
+{"type": "truth", "t": 13.8, "x": 6.8999999999999835, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 13.8, "d_trans": 0.056821, "d_rot": 0.00759}
+{"type": "obs", "t": 13.8, "id": "lm1", "range": 5.51715, "bearing": 2.73754}
+{"type": "obs", "t": 13.8, "id": "lm4", "range": 3.57876, "bearing": -2.98552}
+{"type": "truth", "t": 13.9, "x": 6.949999999999983, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 13.9, "d_trans": 0.054954, "d_rot": 0.009659}
+{"type": "truth", "t": 14.0, "x": 6.999999999999983, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 14.0, "d_trans": 0.047681, "d_rot": 0.008081}
+{"type": "obs", "t": 14.0, "id": "lm1", "range": 5.28845, "bearing": 2.86216}
+{"type": "obs", "t": 14.0, "id": "lm4", "range": 3.65274, "bearing": -3.02921}
+{"type": "truth", "t": 14.1, "x": 7.049999999999983, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 14.1, "d_trans": 0.043269, "d_rot": 0.0081}
+{"type": "truth", "t": 14.2, "x": 7.099999999999983, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 14.2, "d_trans": 0.050627, "d_rot": 0.006306}
+{"type": "obs", "t": 14.2, "id": "lm1", "range": 5.50887, "bearing": 2.74117}
+{"type": "obs", "t": 14.2, "id": "lm4", "range": 3.65586, "bearing": 3.12534}
+{"type": "truth", "t": 14.3, "x": 7.149999999999983, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 14.3, "d_trans": 0.056012, "d_rot": -0.001469}
+{"type": "truth", "t": 14.4, "x": 7.199999999999982, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 14.4, "d_trans": 0.052311, "d_rot": 0.001989}
+{"type": "obs", "t": 14.4, "id": "lm1", "range": 5.59064, "bearing": 2.85517}
+{"type": "obs", "t": 14.4, "id": "lm4", "range": 3.68079, "bearing": -3.06973}
+{"type": "truth", "t": 14.5, "x": 7.249999999999982, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 14.5, "d_trans": 0.052801, "d_rot": 0.000279}
+{"type": "truth", "t": 14.6, "x": 7.299999999999982, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 14.6, "d_trans": 0.047566, "d_rot": 0.009768}
+{"type": "obs", "t": 14.6, "id": "lm1", "range": 5.76984, "bearing": 2.81361}
+{"type": "obs", "t": 14.6, "id": "lm4", "range": 3.6687, "bearing": -2.96392}
+{"type": "truth", "t": 14.7, "x": 7.349999999999982, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 14.7, "d_trans": 0.050886, "d_rot": 0.007158}
+{"type": "truth", "t": 14.8, "x": 7.399999999999982, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 14.8, "d_trans": 0.068157, "d_rot": -0.001186}
+{"type": "obs", "t": 14.8, "id": "lm1", "range": 5.77808, "bearing": 2.83192}
+{"type": "obs", "t": 14.8, "id": "lm4", "range": 4.12177, "bearing": -3.07366}
+{"type": "truth", "t": 14.9, "x": 7.4499999999999815, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 14.9, "d_trans": 0.044281, "d_rot": 0.007726}
+{"type": "truth", "t": 15.0, "x": 7.499999999999981, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 15.0, "d_trans": 0.049107, "d_rot": 0.001933}
+{"type": "obs", "t": 15.0, "id": "lm1", "range": 6.14549, "bearing": 2.71825}
+{"type": "obs", "t": 15.0, "id": "lm4", "range": 4.00121, "bearing": -3.01075}
+{"type": "truth", "t": 15.1, "x": 7.549999999999981, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 15.1, "d_trans": 0.049681, "d_rot": 0.002818}
+{"type": "truth", "t": 15.2, "x": 7.599999999999981, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 15.2, "d_trans": 0.056763, "d_rot": -4.8e-05}
+{"type": "obs", "t": 15.2, "id": "lm1", "range": 6.13846, "bearing": 2.81451}
+{"type": "obs", "t": 15.2, "id": "lm4", "range": 4.11914, "bearing": -2.97155}
+{"type": "truth", "t": 15.3, "x": 7.649999999999981, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 15.3, "d_trans": 0.048664, "d_rot": 0.00085}
+{"type": "truth", "t": 15.4, "x": 7.699999999999981, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 15.4, "d_trans": 0.051888, "d_rot": 0.000347}
+{"type": "obs", "t": 15.4, "id": "lm4", "range": 4.3341, "bearing": -2.97917}
+{"type": "truth", "t": 15.5, "x": 7.7499999999999805, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 15.5, "d_trans": 0.056182, "d_rot": 0.000917}
+{"type": "truth", "t": 15.6, "x": 7.79999999999998, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 15.6, "d_trans": 0.049997, "d_rot": 0.004891}
+{"type": "obs", "t": 15.6, "id": "lm4", "range": 4.10574, "bearing": -3.09628}
+{"type": "truth", "t": 15.7, "x": 7.84999999999998, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 15.7, "d_trans": 0.040388, "d_rot": 0.008751}
+{"type": "truth", "t": 15.8, "x": 7.89999999999998, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 15.8, "d_trans": 0.060826, "d_rot": 0.004539}
+{"type": "obs", "t": 15.8, "id": "lm4", "range": 4.5033, "bearing": -2.98406}
+{"type": "truth", "t": 15.9, "x": 7.94999999999998, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 15.9, "d_trans": 0.050276, "d_rot": -0.002032}
+{"type": "truth", "t": 16.0, "x": 7.99999999999998, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 16.0, "d_trans": 0.05513, "d_rot": 0.010506}
+{"type": "obs", "t": 16.0, "id": "lm4", "range": 4.42627, "bearing": -2.98345}
+{"type": "truth", "t": 16.1, "x": 8.04999999999998, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 16.1, "d_trans": 0.03855, "d_rot": 0.000448}
+{"type": "truth", "t": 16.2, "x": 8.09999999999998, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 16.2, "d_trans": 0.052795, "d_rot": 0.005965}
+{"type": "obs", "t": 16.2, "id": "lm4", "range": 4.63173, "bearing": -3.01059}
+{"type": "truth", "t": 16.3, "x": 8.14999999999998, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 16.3, "d_trans": 0.064598, "d_rot": 0.005556}
+{"type": "truth", "t": 16.4, "x": 8.199999999999982, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 16.4, "d_trans": 0.046126, "d_rot": 0.010463}
+{"type": "obs", "t": 16.4, "id": "lm4", "range": 4.95796, "bearing": -2.94407}
+{"type": "truth", "t": 16.5, "x": 8.249999999999982, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 16.5, "d_trans": 0.05137, "d_rot": 0.003596}
+{"type": "truth", "t": 16.6, "x": 8.299999999999983, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 16.6, "d_trans": 0.05114, "d_rot": -0.003498}
+{"type": "obs", "t": 16.6, "id": "lm4", "range": 4.93938, "bearing": 3.14149}
+{"type": "truth", "t": 16.7, "x": 8.349999999999984, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 16.7, "d_trans": 0.049349, "d_rot": 0.005375}
+{"type": "truth", "t": 16.8, "x": 8.399999999999984, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 16.8, "d_trans": 0.042302, "d_rot": 0.009578}
+{"type": "obs", "t": 16.8, "id": "lm4", "range": 4.82547, "bearing": -2.92055}
+{"type": "truth", "t": 16.9, "x": 8.449999999999985, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 16.9, "d_trans": 0.048322, "d_rot": -0.001128}
+{"type": "truth", "t": 17.0, "x": 8.499999999999986, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 17.0, "d_trans": 0.051879, "d_rot": 0.00146}
+{"type": "obs", "t": 17.0, "id": "lm4", "range": 5.19144, "bearing": -3.0555}
+{"type": "truth", "t": 17.1, "x": 8.549999999999986, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 17.1, "d_trans": 0.062109, "d_rot": 0.009535}
+{"type": "truth", "t": 17.2, "x": 8.599999999999987, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 17.2, "d_trans": 0.053069, "d_rot": -0.003189}
+{"type": "obs", "t": 17.2, "id": "lm4", "range": 5.20883, "bearing": -3.10561}
+{"type": "truth", "t": 17.3, "x": 8.649999999999988, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 17.3, "d_trans": 0.042734, "d_rot": 0.008668}
+{"type": "truth", "t": 17.4, "x": 8.699999999999989, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 17.4, "d_trans": 0.057591, "d_rot": 0.009954}
+{"type": "obs", "t": 17.4, "id": "lm4", "range": 5.11652, "bearing": -2.99988}
+{"type": "truth", "t": 17.5, "x": 8.74999999999999, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 17.5, "d_trans": 0.060965, "d_rot": 0.015675}
+{"type": "truth", "t": 17.6, "x": 8.79999999999999, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 17.6, "d_trans": 0.051918, "d_rot": 0.009549}
+{"type": "obs", "t": 17.6, "id": "lm4", "range": 5.21393, "bearing": -2.9678}
+{"type": "truth", "t": 17.7, "x": 8.84999999999999, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 17.7, "d_trans": 0.046335, "d_rot": 0.005973}
+{"type": "truth", "t": 17.8, "x": 8.899999999999991, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 17.8, "d_trans": 0.063571, "d_rot": 0.008883}
+{"type": "obs", "t": 17.8, "id": "lm4", "range": 5.51006, "bearing": -3.05212}
+{"type": "truth", "t": 17.9, "x": 8.949999999999992, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 17.9, "d_trans": 0.053812, "d_rot": 0.006273}
+{"type": "truth", "t": 18.0, "x": 8.999999999999993, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 18.0, "d_trans": 0.041413, "d_rot": -0.000772}
+{"type": "obs", "t": 18.0, "id": "lm4", "range": 5.66021, "bearing": -3.03543}
+{"type": "truth", "t": 18.1, "x": 9.049999999999994, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 18.1, "d_trans": 0.054848, "d_rot": -0.000296}
+{"type": "truth", "t": 18.2, "x": 9.099999999999994, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 18.2, "d_trans": 0.053257, "d_rot": 0.005683}
+{"type": "obs", "t": 18.2, "id": "lm4", "range": 5.63154, "bearing": -3.05297}
+{"type": "truth", "t": 18.3, "x": 9.149999999999995, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 18.3, "d_trans": 0.057164, "d_rot": 0.015862}
+{"type": "truth", "t": 18.4, "x": 9.199999999999996, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 18.4, "d_trans": 0.05148, "d_rot": 0.005931}
+{"type": "obs", "t": 18.4, "id": "lm4", "range": 5.66795, "bearing": 3.12455}
+{"type": "truth", "t": 18.5, "x": 9.249999999999996, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 18.5, "d_trans": 0.047066, "d_rot": -0.000347}
+{"type": "truth", "t": 18.6, "x": 9.299999999999997, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 18.6, "d_trans": 0.043856, "d_rot": 0.007605}
+{"type": "obs", "t": 18.6, "id": "lm4", "range": 5.63076, "bearing": -3.11425}
+{"type": "truth", "t": 18.7, "x": 9.349999999999998, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 18.7, "d_trans": 0.043232, "d_rot": 0.008364}
+{"type": "truth", "t": 18.8, "x": 9.399999999999999, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 18.8, "d_trans": 0.048159, "d_rot": -0.001004}
+{"type": "obs", "t": 18.8, "id": "lm4", "range": 5.90166, "bearing": -3.11952}
+{"type": "truth", "t": 18.9, "x": 9.45, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 18.9, "d_trans": 0.043793, "d_rot": -0.004238}
+{"type": "truth", "t": 19.0, "x": 9.5, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 19.0, "d_trans": 0.047775, "d_rot": -0.004307}
+{"type": "truth", "t": 19.1, "x": 9.55, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 19.1, "d_trans": 0.048157, "d_rot": 0.00245}
+{"type": "truth", "t": 19.2, "x": 9.600000000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 19.2, "d_trans": 0.052154, "d_rot": 0.00644}
+{"type": "truth", "t": 19.3, "x": 9.650000000000002, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 19.3, "d_trans": 0.044006, "d_rot": -0.003427}
+{"type": "truth", "t": 19.4, "x": 9.700000000000003, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 19.4, "d_trans": 0.044023, "d_rot": 0.008562}
+{"type": "truth", "t": 19.5, "x": 9.750000000000004, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 19.5, "d_trans": 0.055339, "d_rot": 0.00287}
+{"type": "truth", "t": 19.6, "x": 9.800000000000004, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 19.6, "d_trans": 0.049324, "d_rot": 0.004104}
+{"type": "truth", "t": 19.7, "x": 9.850000000000005, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 19.7, "d_trans": 0.048746, "d_rot": 0.008813}
+{"type": "truth", "t": 19.8, "x": 9.900000000000006, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 19.8, "d_trans": 0.050662, "d_rot": 0.008536}
+{"type": "truth", "t": 19.9, "x": 9.950000000000006, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 19.9, "d_trans": 0.051732, "d_rot": 0.007532}
+{"type": "truth", "t": 20.0, "x": 10.000000000000007, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 20.0, "d_trans": 0.051662, "d_rot": 0.004261}
+{"type": "truth", "t": 20.1, "x": 10.050000000000008, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 20.1, "d_trans": 0.045304, "d_rot": 0.007788}
+{"type": "truth", "t": 20.2, "x": 10.100000000000009, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 20.2, "d_trans": 0.051371, "d_rot": 0.001203}
+{"type": "truth", "t": 20.3, "x": 10.15000000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 20.3, "d_trans": 0.049207, "d_rot": 0.008049}
+{"type": "truth", "t": 20.4, "x": 10.20000000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 20.4, "d_trans": 0.047168, "d_rot": 0.0053}
+{"type": "truth", "t": 20.5, "x": 10.25000000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 20.5, "d_trans": 0.05107, "d_rot": 0.011438}
+{"type": "truth", "t": 20.6, "x": 10.300000000000011, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 20.6, "d_trans": 0.046587, "d_rot": 0.00402}
+{"type": "truth", "t": 20.7, "x": 10.350000000000012, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 20.7, "d_trans": 0.04423, "d_rot": 0.013935}
+{"type": "truth", "t": 20.8, "x": 10.400000000000013, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 20.8, "d_trans": 0.044243, "d_rot": -0.005909}
+{"type": "truth", "t": 20.9, "x": 10.450000000000014, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 20.9, "d_trans": 0.045616, "d_rot": -0.001213}
+{"type": "truth", "t": 21.0, "x": 10.500000000000014, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 21.0, "d_trans": 0.044273, "d_rot": -0.000794}
+{"type": "truth", "t": 21.1, "x": 10.550000000000015, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 21.1, "d_trans": 0.054485, "d_rot": 0.000324}
+{"type": "truth", "t": 21.2, "x": 10.600000000000016, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 21.2, "d_trans": 0.046101, "d_rot": -0.00257}
+{"type": "truth", "t": 21.3, "x": 10.650000000000016, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 21.3, "d_trans": 0.054868, "d_rot": 0.007563}
+{"type": "truth", "t": 21.4, "x": 10.700000000000017, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 21.4, "d_trans": 0.039185, "d_rot": 0.010892}
+{"type": "truth", "t": 21.5, "x": 10.750000000000018, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 21.5, "d_trans": 0.046629, "d_rot": 0.008586}
+{"type": "truth", "t": 21.6, "x": 10.800000000000018, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 21.6, "d_trans": 0.056739, "d_rot": 0.003589}
+{"type": "truth", "t": 21.7, "x": 10.85000000000002, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 21.7, "d_trans": 0.051215, "d_rot": 0.00213}
+{"type": "truth", "t": 21.8, "x": 10.90000000000002, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 21.8, "d_trans": 0.052692, "d_rot": 0.000138}
+{"type": "truth", "t": 21.9, "x": 10.95000000000002, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 21.9, "d_trans": 0.061631, "d_rot": 0.000646}
+{"type": "truth", "t": 22.0, "x": 11.000000000000021, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 22.0, "d_trans": 0.045835, "d_rot": 0.00622}
+{"type": "truth", "t": 22.1, "x": 11.050000000000022, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 22.1, "d_trans": 0.046858, "d_rot": 0.002036}
+{"type": "truth", "t": 22.2, "x": 11.100000000000023, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 22.2, "d_trans": 0.045841, "d_rot": -0.002014}
+{"type": "truth", "t": 22.3, "x": 11.150000000000023, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 22.3, "d_trans": 0.053019, "d_rot": 0.006975}
+{"type": "truth", "t": 22.4, "x": 11.200000000000024, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 22.4, "d_trans": 0.046911, "d_rot": -0.001842}
+{"type": "truth", "t": 22.5, "x": 11.250000000000025, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 22.5, "d_trans": 0.045374, "d_rot": 0.001844}
+{"type": "truth", "t": 22.6, "x": 11.300000000000026, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 22.6, "d_trans": 0.04908, "d_rot": 0.002731}
+{"type": "truth", "t": 22.7, "x": 11.350000000000026, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 22.7, "d_trans": 0.056711, "d_rot": 0.007992}
+{"type": "truth", "t": 22.8, "x": 11.400000000000027, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 22.8, "d_trans": 0.051932, "d_rot": -0.002635}
+{"type": "truth", "t": 22.9, "x": 11.450000000000028, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 22.9, "d_trans": 0.051759, "d_rot": 0.00784}
+{"type": "truth", "t": 23.0, "x": 11.500000000000028, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 23.0, "d_trans": 0.038072, "d_rot": 0.009422}
+{"type": "truth", "t": 23.1, "x": 11.55000000000003, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 23.1, "d_trans": 0.043108, "d_rot": -7.3e-05}
+{"type": "truth", "t": 23.2, "x": 11.60000000000003, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 23.2, "d_trans": 0.052675, "d_rot": 0.00327}
+{"type": "truth", "t": 23.3, "x": 11.65000000000003, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 23.3, "d_trans": 0.041743, "d_rot": 0.000677}
+{"type": "truth", "t": 23.4, "x": 11.700000000000031, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 23.4, "d_trans": 0.055111, "d_rot": 0.006738}
+{"type": "truth", "t": 23.5, "x": 11.750000000000032, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 23.5, "d_trans": 0.049025, "d_rot": 0.002434}
+{"type": "truth", "t": 23.6, "x": 11.800000000000033, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 23.6, "d_trans": 0.058454, "d_rot": -0.003294}
+{"type": "truth", "t": 23.7, "x": 11.850000000000033, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 23.7, "d_trans": 0.05119, "d_rot": 0.001134}
+{"type": "truth", "t": 23.8, "x": 11.900000000000034, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 23.8, "d_trans": 0.043209, "d_rot": 0.00278}
+{"type": "truth", "t": 23.9, "x": 11.950000000000035, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 23.9, "d_trans": 0.052882, "d_rot": 0.013134}
+{"type": "truth", "t": 24.0, "x": 12.000000000000036, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 24.0, "d_trans": 0.051112, "d_rot": 0.0092}
+{"type": "truth", "t": 24.1, "x": 12.050000000000036, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 24.1, "d_trans": 0.052026, "d_rot": -0.001796}
+{"type": "truth", "t": 24.2, "x": 12.100000000000037, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 24.2, "d_trans": 0.047557, "d_rot": -0.000693}
+{"type": "truth", "t": 24.3, "x": 12.150000000000038, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 24.3, "d_trans": 0.042419, "d_rot": -0.000132}
+{"type": "truth", "t": 24.4, "x": 12.200000000000038, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 24.4, "d_trans": 0.054814, "d_rot": 0.003571}
+{"type": "truth", "t": 24.5, "x": 12.250000000000039, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 24.5, "d_trans": 0.043951, "d_rot": 0.003745}
+{"type": "truth", "t": 24.6, "x": 12.30000000000004, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 24.6, "d_trans": 0.046754, "d_rot": -0.002554}
+{"type": "truth", "t": 24.7, "x": 12.35000000000004, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 24.7, "d_trans": 0.046517, "d_rot": 0.007797}
+{"type": "truth", "t": 24.8, "x": 12.400000000000041, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 24.8, "d_trans": 0.050869, "d_rot": 0.002393}
+{"type": "truth", "t": 24.9, "x": 12.450000000000042, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 24.9, "d_trans": 0.036205, "d_rot": -0.004359}
+{"type": "truth", "t": 25.0, "x": 12.500000000000043, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 25.0, "d_trans": 0.047727, "d_rot": 0.010881}
+{"type": "truth", "t": 25.1, "x": 12.550000000000043, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 25.1, "d_trans": 0.057509, "d_rot": 0.010332}
+{"type": "truth", "t": 25.2, "x": 12.600000000000044, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 25.2, "d_trans": 0.047982, "d_rot": 0.004793}
+{"type": "obs", "t": 25.2, "id": "lm6", "range": 6.0759, "bearing": 0.44665}
+{"type": "truth", "t": 25.3, "x": 12.650000000000045, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 25.3, "d_trans": 0.049631, "d_rot": 0.005656}
+{"type": "truth", "t": 25.4, "x": 12.700000000000045, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 25.4, "d_trans": 0.048302, "d_rot": 0.011096}
+{"type": "obs", "t": 25.4, "id": "lm6", "range": 5.77359, "bearing": 0.36105}
+{"type": "truth", "t": 25.5, "x": 12.750000000000046, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 25.5, "d_trans": 0.051158, "d_rot": 0.007782}
+{"type": "truth", "t": 25.6, "x": 12.800000000000047, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 25.6, "d_trans": 0.046882, "d_rot": 0.005219}
+{"type": "obs", "t": 25.6, "id": "lm6", "range": 5.72485, "bearing": 0.38778}
+{"type": "truth", "t": 25.7, "x": 12.850000000000048, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 25.7, "d_trans": 0.048486, "d_rot": 0.002412}
+{"type": "truth", "t": 25.8, "x": 12.900000000000048, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 25.8, "d_trans": 0.055988, "d_rot": 0.001194}
+{"type": "obs", "t": 25.8, "id": "lm6", "range": 5.75159, "bearing": 0.6511}
+{"type": "truth", "t": 25.9, "x": 12.950000000000049, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 25.9, "d_trans": 0.057435, "d_rot": 0.00214}
+{"type": "truth", "t": 26.0, "x": 13.00000000000005, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 26.0, "d_trans": 0.055046, "d_rot": 0.005538}
+{"type": "obs", "t": 26.0, "id": "lm6", "range": 5.87392, "bearing": 0.38018}
+{"type": "truth", "t": 26.1, "x": 13.05000000000005, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 26.1, "d_trans": 0.057116, "d_rot": 0.016008}
+{"type": "truth", "t": 26.2, "x": 13.100000000000051, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 26.2, "d_trans": 0.046066, "d_rot": 0.003783}
+{"type": "obs", "t": 26.2, "id": "lm6", "range": 5.57529, "bearing": 0.47012}
+{"type": "truth", "t": 26.3, "x": 13.150000000000052, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 26.3, "d_trans": 0.06064, "d_rot": -0.005121}
+{"type": "truth", "t": 26.4, "x": 13.200000000000053, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 26.4, "d_trans": 0.048445, "d_rot": 0.005307}
+{"type": "obs", "t": 26.4, "id": "lm6", "range": 5.40064, "bearing": 0.51596}
+{"type": "truth", "t": 26.5, "x": 13.250000000000053, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 26.5, "d_trans": 0.049781, "d_rot": 0.003481}
+{"type": "truth", "t": 26.6, "x": 13.300000000000054, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 26.6, "d_trans": 0.053714, "d_rot": -0.001077}
+{"type": "obs", "t": 26.6, "id": "lm6", "range": 5.37358, "bearing": 0.52275}
+{"type": "truth", "t": 26.7, "x": 13.350000000000055, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 26.7, "d_trans": 0.047827, "d_rot": -0.009167}
+{"type": "truth", "t": 26.8, "x": 13.400000000000055, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 26.8, "d_trans": 0.05231, "d_rot": 0.000325}
+{"type": "obs", "t": 26.8, "id": "lm6", "range": 5.33123, "bearing": 0.56648}
+{"type": "truth", "t": 26.9, "x": 13.450000000000056, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 26.9, "d_trans": 0.047664, "d_rot": -0.003632}
+{"type": "truth", "t": 27.0, "x": 13.500000000000057, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 27.0, "d_trans": 0.044679, "d_rot": 0.003617}
+{"type": "obs", "t": 27.0, "id": "lm6", "range": 4.83858, "bearing": 0.44658}
+{"type": "truth", "t": 27.1, "x": 13.550000000000058, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 27.1, "d_trans": 0.049343, "d_rot": 0.003844}
+{"type": "truth", "t": 27.2, "x": 13.600000000000058, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 27.2, "d_trans": 0.051902, "d_rot": 0.013599}
+{"type": "obs", "t": 27.2, "id": "lm6", "range": 5.04439, "bearing": 0.56991}
+{"type": "truth", "t": 27.3, "x": 13.650000000000059, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 27.3, "d_trans": 0.054893, "d_rot": 0.002651}
+{"type": "truth", "t": 27.4, "x": 13.70000000000006, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 27.4, "d_trans": 0.049134, "d_rot": 0.010665}
+{"type": "obs", "t": 27.4, "id": "lm6", "range": 4.85676, "bearing": 0.47741}
+{"type": "truth", "t": 27.5, "x": 13.75000000000006, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 27.5, "d_trans": 0.048156, "d_rot": -0.000292}
+{"type": "truth", "t": 27.6, "x": 13.800000000000061, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 27.6, "d_trans": 0.052209, "d_rot": 0.009884}
+{"type": "obs", "t": 27.6, "id": "lm6", "range": 5.11361, "bearing": 0.62405}
+{"type": "truth", "t": 27.7, "x": 13.850000000000062, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 27.7, "d_trans": 0.039149, "d_rot": 0.006924}
+{"type": "truth", "t": 27.8, "x": 13.900000000000063, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 27.8, "d_trans": 0.052507, "d_rot": 0.003617}
+{"type": "obs", "t": 27.8, "id": "lm6", "range": 4.50591, "bearing": 0.63967}
+{"type": "truth", "t": 27.9, "x": 13.950000000000063, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 27.9, "d_trans": 0.047137, "d_rot": -0.003927}
+{"type": "truth", "t": 28.0, "x": 14.000000000000064, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 28.0, "d_trans": 0.048059, "d_rot": -0.002175}
+{"type": "obs", "t": 28.0, "id": "lm6", "range": 4.86231, "bearing": 0.58263}
+{"type": "truth", "t": 28.1, "x": 14.050000000000065, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 28.1, "d_trans": 0.0449, "d_rot": 0.003638}
+{"type": "truth", "t": 28.2, "x": 14.100000000000065, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 28.2, "d_trans": 0.046072, "d_rot": 0.012789}
+{"type": "obs", "t": 28.2, "id": "lm6", "range": 4.39602, "bearing": 0.65004}
+{"type": "truth", "t": 28.3, "x": 14.150000000000066, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 28.3, "d_trans": 0.040747, "d_rot": 0.001649}
+{"type": "truth", "t": 28.4, "x": 14.200000000000067, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 28.4, "d_trans": 0.054778, "d_rot": 0.004004}
+{"type": "obs", "t": 28.4, "id": "lm6", "range": 4.51381, "bearing": 0.54345}
+{"type": "truth", "t": 28.5, "x": 14.250000000000068, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 28.5, "d_trans": 0.056374, "d_rot": 0.00653}
+{"type": "truth", "t": 28.6, "x": 14.300000000000068, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 28.6, "d_trans": 0.050537, "d_rot": 0.009106}
+{"type": "obs", "t": 28.6, "id": "lm6", "range": 4.27715, "bearing": 0.55591}
+{"type": "truth", "t": 28.7, "x": 14.350000000000069, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 28.7, "d_trans": 0.055011, "d_rot": 0.006666}
+{"type": "truth", "t": 28.8, "x": 14.40000000000007, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 28.8, "d_trans": 0.053083, "d_rot": 0.006825}
+{"type": "obs", "t": 28.8, "id": "lm6", "range": 4.4137, "bearing": 0.57472}
+{"type": "truth", "t": 28.9, "x": 14.45000000000007, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 28.9, "d_trans": 0.043133, "d_rot": -0.002799}
+{"type": "truth", "t": 29.0, "x": 14.500000000000071, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 29.0, "d_trans": 0.055216, "d_rot": 0.008642}
+{"type": "obs", "t": 29.0, "id": "lm6", "range": 4.22006, "bearing": 0.58967}
+{"type": "truth", "t": 29.1, "x": 14.550000000000072, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 29.1, "d_trans": 0.05719, "d_rot": -0.00083}
+{"type": "truth", "t": 29.2, "x": 14.600000000000072, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 29.2, "d_trans": 0.04714, "d_rot": -0.00044}
+{"type": "obs", "t": 29.2, "id": "lm6", "range": 4.24372, "bearing": 0.66462}
+{"type": "truth", "t": 29.3, "x": 14.650000000000073, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 29.3, "d_trans": 0.04386, "d_rot": 0.007251}
+{"type": "truth", "t": 29.4, "x": 14.700000000000074, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 29.4, "d_trans": 0.045543, "d_rot": -0.000264}
+{"type": "obs", "t": 29.4, "id": "lm6", "range": 4.03846, "bearing": 0.66752}
+{"type": "truth", "t": 29.5, "x": 14.750000000000075, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 29.5, "d_trans": 0.05338, "d_rot": -0.00258}
+{"type": "truth", "t": 29.6, "x": 14.800000000000075, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 29.6, "d_trans": 0.059152, "d_rot": -0.000101}
+{"type": "obs", "t": 29.6, "id": "lm6", "range": 3.94036, "bearing": 0.67951}
+{"type": "truth", "t": 29.7, "x": 14.850000000000076, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 29.7, "d_trans": 0.051914, "d_rot": 0.00224}
+{"type": "truth", "t": 29.8, "x": 14.900000000000077, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 29.8, "d_trans": 0.058399, "d_rot": 0.003882}
+{"type": "obs", "t": 29.8, "id": "lm6", "range": 4.20965, "bearing": 0.73824}
+{"type": "truth", "t": 29.9, "x": 14.950000000000077, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 29.9, "d_trans": 0.047429, "d_rot": 0.01234}
+{"type": "truth", "t": 30.0, "x": 15.000000000000078, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 30.0, "d_trans": 0.058586, "d_rot": 0.001905}
+{"type": "obs", "t": 30.0, "id": "lm6", "range": 3.96912, "bearing": 0.6988}
+{"type": "truth", "t": 30.1, "x": 15.050000000000079, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 30.1, "d_trans": 0.048356, "d_rot": 0.007803}
+{"type": "truth", "t": 30.2, "x": 15.10000000000008, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 30.2, "d_trans": 0.051103, "d_rot": -0.001199}
+{"type": "obs", "t": 30.2, "id": "lm6", "range": 3.86521, "bearing": 0.70509}
+{"type": "truth", "t": 30.3, "x": 15.15000000000008, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 30.3, "d_trans": 0.058465, "d_rot": 0.007796}
+{"type": "truth", "t": 30.4, "x": 15.200000000000081, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 30.4, "d_trans": 0.049994, "d_rot": 0.002965}
+{"type": "obs", "t": 30.4, "id": "lm6", "range": 3.69811, "bearing": 0.70698}
+{"type": "truth", "t": 30.5, "x": 15.250000000000082, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 30.5, "d_trans": 0.047243, "d_rot": -0.003064}
+{"type": "truth", "t": 30.6, "x": 15.300000000000082, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 30.6, "d_trans": 0.047458, "d_rot": 0.004775}
+{"type": "obs", "t": 30.6, "id": "lm6", "range": 3.79811, "bearing": 0.68078}
+{"type": "truth", "t": 30.7, "x": 15.350000000000083, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 30.7, "d_trans": 0.042557, "d_rot": 0.014621}
+{"type": "truth", "t": 30.8, "x": 15.400000000000084, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 30.8, "d_trans": 0.039708, "d_rot": -0.001452}
+{"type": "obs", "t": 30.8, "id": "lm6", "range": 3.7346, "bearing": 0.69848}
+{"type": "obs", "t": 30.8, "id": "lm7", "range": 5.87378, "bearing": -0.33729}
+{"type": "truth", "t": 30.9, "x": 15.450000000000085, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 30.9, "d_trans": 0.05151, "d_rot": 0.008649}
+{"type": "truth", "t": 31.0, "x": 15.500000000000085, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 31.0, "d_trans": 0.047035, "d_rot": 0.005493}
+{"type": "obs", "t": 31.0, "id": "lm6", "range": 3.51297, "bearing": 0.87741}
+{"type": "obs", "t": 31.0, "id": "lm7", "range": 5.74673, "bearing": -0.36645}
+{"type": "truth", "t": 31.1, "x": 15.550000000000086, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 31.1, "d_trans": 0.05073, "d_rot": 0.002863}
+{"type": "truth", "t": 31.2, "x": 15.600000000000087, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 31.2, "d_trans": 0.050488, "d_rot": 0.002402}
+{"type": "obs", "t": 31.2, "id": "lm6", "range": 3.46655, "bearing": 0.8233}
+{"type": "obs", "t": 31.2, "id": "lm7", "range": 5.67605, "bearing": -0.29585}
+{"type": "truth", "t": 31.3, "x": 15.650000000000087, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 31.3, "d_trans": 0.051918, "d_rot": 0.008384}
+{"type": "truth", "t": 31.4, "x": 15.700000000000088, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 31.4, "d_trans": 0.052305, "d_rot": 0.009583}
+{"type": "obs", "t": 31.4, "id": "lm6", "range": 3.59866, "bearing": 0.87097}
+{"type": "obs", "t": 31.4, "id": "lm7", "range": 5.70439, "bearing": -0.41209}
+{"type": "truth", "t": 31.5, "x": 15.750000000000089, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 31.5, "d_trans": 0.04269, "d_rot": 0.010987}
+{"type": "truth", "t": 31.6, "x": 15.80000000000009, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 31.6, "d_trans": 0.060533, "d_rot": 0.003379}
+{"type": "obs", "t": 31.6, "id": "lm6", "range": 3.48202, "bearing": 0.77364}
+{"type": "obs", "t": 31.6, "id": "lm7", "range": 5.53573, "bearing": -0.55443}
+{"type": "truth", "t": 31.7, "x": 15.85000000000009, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 31.7, "d_trans": 0.041676, "d_rot": 0.01279}
+{"type": "truth", "t": 31.8, "x": 15.900000000000091, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 31.8, "d_trans": 0.05077, "d_rot": -0.005915}
+{"type": "obs", "t": 31.8, "id": "lm6", "range": 3.05977, "bearing": 0.86717}
+{"type": "obs", "t": 31.8, "id": "lm7", "range": 5.3131, "bearing": -0.38236}
+{"type": "truth", "t": 31.9, "x": 15.950000000000092, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 31.9, "d_trans": 0.05043, "d_rot": 0.009669}
+{"type": "truth", "t": 32.0, "x": 16.000000000000092, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 32.0, "d_trans": 0.055511, "d_rot": 0.005952}
+{"type": "obs", "t": 32.0, "id": "lm6", "range": 3.16568, "bearing": 0.93863}
+{"type": "obs", "t": 32.0, "id": "lm7", "range": 5.46777, "bearing": -0.27527}
+{"type": "truth", "t": 32.1, "x": 16.050000000000093, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 32.1, "d_trans": 0.050036, "d_rot": 0.002683}
+{"type": "truth", "t": 32.2, "x": 16.100000000000094, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 32.2, "d_trans": 0.045632, "d_rot": -0.00436}
+{"type": "obs", "t": 32.2, "id": "lm6", "range": 3.15744, "bearing": 0.87662}
+{"type": "obs", "t": 32.2, "id": "lm7", "range": 5.27178, "bearing": -0.36577}
+{"type": "truth", "t": 32.3, "x": 16.150000000000095, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 32.3, "d_trans": 0.048069, "d_rot": 0.002348}
+{"type": "truth", "t": 32.4, "x": 16.200000000000095, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 32.4, "d_trans": 0.048351, "d_rot": 0.012055}
+{"type": "obs", "t": 32.4, "id": "lm6", "range": 2.82063, "bearing": 0.83702}
+{"type": "obs", "t": 32.4, "id": "lm7", "range": 5.09656, "bearing": -0.34471}
+{"type": "truth", "t": 32.5, "x": 16.250000000000096, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 32.5, "d_trans": 0.04935, "d_rot": 0.014645}
+{"type": "truth", "t": 32.6, "x": 16.300000000000097, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 32.6, "d_trans": 0.044566, "d_rot": 0.006522}
+{"type": "obs", "t": 32.6, "id": "lm6", "range": 2.85816, "bearing": 0.98989}
+{"type": "obs", "t": 32.6, "id": "lm7", "range": 5.06132, "bearing": -0.35321}
+{"type": "truth", "t": 32.7, "x": 16.350000000000097, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 32.7, "d_trans": 0.052812, "d_rot": 0.005155}
+{"type": "truth", "t": 32.8, "x": 16.400000000000098, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 32.8, "d_trans": 0.041819, "d_rot": 0.003403}
+{"type": "obs", "t": 32.8, "id": "lm6", "range": 2.92679, "bearing": 1.014}
+{"type": "obs", "t": 32.8, "id": "lm7", "range": 4.91506, "bearing": -0.38149}
+{"type": "truth", "t": 32.9, "x": 16.4500000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 32.9, "d_trans": 0.053851, "d_rot": 0.002978}
+{"type": "truth", "t": 33.0, "x": 16.5000000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 33.0, "d_trans": 0.052023, "d_rot": 0.005445}
+{"type": "obs", "t": 33.0, "id": "lm6", "range": 2.81249, "bearing": 1.01974}
+{"type": "obs", "t": 33.0, "id": "lm7", "range": 4.77523, "bearing": -0.37678}
+{"type": "truth", "t": 33.1, "x": 16.5500000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 33.1, "d_trans": 0.055861, "d_rot": -0.000198}
+{"type": "truth", "t": 33.2, "x": 16.6000000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 33.2, "d_trans": 0.051351, "d_rot": 0.001427}
+{"type": "obs", "t": 33.2, "id": "lm6", "range": 3.14792, "bearing": 0.92925}
+{"type": "obs", "t": 33.2, "id": "lm7", "range": 4.55426, "bearing": -0.39229}
+{"type": "truth", "t": 33.3, "x": 16.6500000000001, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 33.3, "d_trans": 0.047721, "d_rot": -0.000426}
+{"type": "truth", "t": 33.4, "x": 16.700000000000102, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 33.4, "d_trans": 0.044819, "d_rot": 0.004865}
+{"type": "obs", "t": 33.4, "id": "lm6", "range": 2.9309, "bearing": 1.16856}
+{"type": "obs", "t": 33.4, "id": "lm7", "range": 4.62352, "bearing": -0.36004}
+{"type": "truth", "t": 33.5, "x": 16.750000000000103, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 33.5, "d_trans": 0.045297, "d_rot": -0.004866}
+{"type": "truth", "t": 33.6, "x": 16.800000000000104, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 33.6, "d_trans": 0.051038, "d_rot": -0.000453}
+{"type": "obs", "t": 33.6, "id": "lm6", "range": 2.74187, "bearing": 1.04201}
+{"type": "obs", "t": 33.6, "id": "lm7", "range": 4.85725, "bearing": -0.29815}
+{"type": "truth", "t": 33.7, "x": 16.850000000000104, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 33.7, "d_trans": 0.04645, "d_rot": 0.005389}
+{"type": "truth", "t": 33.8, "x": 16.900000000000105, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 33.8, "d_trans": 0.046307, "d_rot": -0.008152}
+{"type": "obs", "t": 33.8, "id": "lm6", "range": 2.59559, "bearing": 1.055}
+{"type": "obs", "t": 33.8, "id": "lm7", "range": 4.50354, "bearing": -0.41088}
+{"type": "truth", "t": 33.9, "x": 16.950000000000106, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 33.9, "d_trans": 0.04779, "d_rot": 0.000389}
+{"type": "truth", "t": 34.0, "x": 17.000000000000107, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 34.0, "d_trans": 0.045311, "d_rot": 0.004794}
+{"type": "obs", "t": 34.0, "id": "lm6", "range": 2.75185, "bearing": 1.29357}
+{"type": "obs", "t": 34.0, "id": "lm7", "range": 4.40011, "bearing": -0.28214}
+{"type": "truth", "t": 34.1, "x": 17.050000000000107, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 34.1, "d_trans": 0.046876, "d_rot": 0.005846}
+{"type": "truth", "t": 34.2, "x": 17.100000000000108, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 34.2, "d_trans": 0.048329, "d_rot": 0.004161}
+{"type": "obs", "t": 34.2, "id": "lm6", "range": 2.65105, "bearing": 1.25988}
+{"type": "obs", "t": 34.2, "id": "lm7", "range": 4.35432, "bearing": -0.48585}
+{"type": "truth", "t": 34.3, "x": 17.15000000000011, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 34.3, "d_trans": 0.053969, "d_rot": 0.014602}
+{"type": "truth", "t": 34.4, "x": 17.20000000000011, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 34.4, "d_trans": 0.044744, "d_rot": 0.006357}
+{"type": "obs", "t": 34.4, "id": "lm6", "range": 2.72252, "bearing": 1.23516}
+{"type": "obs", "t": 34.4, "id": "lm7", "range": 4.45045, "bearing": -0.4969}
+{"type": "truth", "t": 34.5, "x": 17.25000000000011, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 34.5, "d_trans": 0.055347, "d_rot": 0.001622}
+{"type": "truth", "t": 34.6, "x": 17.30000000000011, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 34.6, "d_trans": 0.05505, "d_rot": -0.000502}
+{"type": "obs", "t": 34.6, "id": "lm6", "range": 2.81487, "bearing": 1.29814}
+{"type": "obs", "t": 34.6, "id": "lm7", "range": 4.27317, "bearing": -0.41874}
+{"type": "truth", "t": 34.7, "x": 17.35000000000011, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 34.7, "d_trans": 0.052344, "d_rot": 0.00719}
+{"type": "truth", "t": 34.8, "x": 17.400000000000112, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 34.8, "d_trans": 0.044454, "d_rot": 0.002187}
+{"type": "obs", "t": 34.8, "id": "lm6", "range": 2.65389, "bearing": 1.31714}
+{"type": "obs", "t": 34.8, "id": "lm7", "range": 4.11682, "bearing": -0.53924}
+{"type": "truth", "t": 34.9, "x": 17.450000000000113, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 34.9, "d_trans": 0.063038, "d_rot": 0.000305}
+{"type": "truth", "t": 35.0, "x": 17.500000000000114, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 35.0, "d_trans": 0.048555, "d_rot": 0.016422}
+{"type": "obs", "t": 35.0, "id": "lm6", "range": 2.60652, "bearing": 1.38853}
+{"type": "obs", "t": 35.0, "id": "lm7", "range": 3.94676, "bearing": -0.50096}
+{"type": "truth", "t": 35.1, "x": 17.550000000000114, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 35.1, "d_trans": 0.061397, "d_rot": 0.009684}
+{"type": "truth", "t": 35.2, "x": 17.600000000000115, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 35.2, "d_trans": 0.052016, "d_rot": 0.001073}
+{"type": "obs", "t": 35.2, "id": "lm6", "range": 2.68202, "bearing": 1.44874}
+{"type": "obs", "t": 35.2, "id": "lm7", "range": 3.98633, "bearing": -0.58683}
+{"type": "truth", "t": 35.3, "x": 17.650000000000116, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 35.3, "d_trans": 0.050635, "d_rot": 0.002141}
+{"type": "truth", "t": 35.4, "x": 17.700000000000117, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 35.4, "d_trans": 0.046621, "d_rot": 0.003369}
+{"type": "obs", "t": 35.4, "id": "lm6", "range": 2.44133, "bearing": 1.35447}
+{"type": "obs", "t": 35.4, "id": "lm7", "range": 3.83988, "bearing": -0.50099}
+{"type": "obs", "t": 35.4, "id": "lm8", "range": 5.92877, "bearing": 0.29474}
+{"type": "truth", "t": 35.5, "x": 17.750000000000117, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 35.5, "d_trans": 0.041422, "d_rot": 0.008375}
+{"type": "truth", "t": 35.6, "x": 17.800000000000118, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 35.6, "d_trans": 0.051218, "d_rot": 0.003409}
+{"type": "obs", "t": 35.6, "id": "lm6", "range": 2.5824, "bearing": 1.57812}
+{"type": "obs", "t": 35.6, "id": "lm7", "range": 3.81808, "bearing": -0.53502}
+{"type": "obs", "t": 35.6, "id": "lm8", "range": 6.21014, "bearing": 0.42225}
+{"type": "truth", "t": 35.7, "x": 17.85000000000012, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 35.7, "d_trans": 0.041188, "d_rot": 0.005636}
+{"type": "truth", "t": 35.8, "x": 17.90000000000012, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 35.8, "d_trans": 0.050187, "d_rot": 0.004323}
+{"type": "obs", "t": 35.8, "id": "lm6", "range": 2.65518, "bearing": 1.53258}
+{"type": "obs", "t": 35.8, "id": "lm7", "range": 3.6157, "bearing": -0.53274}
+{"type": "obs", "t": 35.8, "id": "lm8", "range": 5.7633, "bearing": 0.35283}
+{"type": "truth", "t": 35.9, "x": 17.95000000000012, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 35.9, "d_trans": 0.051955, "d_rot": 0.009907}
+{"type": "truth", "t": 36.0, "x": 18.00000000000012, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 36.0, "d_trans": 0.055701, "d_rot": 0.006543}
+{"type": "obs", "t": 36.0, "id": "lm6", "range": 2.31089, "bearing": 1.60383}
+{"type": "obs", "t": 36.0, "id": "lm7", "range": 3.64176, "bearing": -0.59229}
+{"type": "obs", "t": 36.0, "id": "lm8", "range": 5.77671, "bearing": 0.24643}
+{"type": "truth", "t": 36.1, "x": 18.05000000000012, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 36.1, "d_trans": 0.053197, "d_rot": 0.002494}
+{"type": "truth", "t": 36.2, "x": 18.100000000000122, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 36.2, "d_trans": 0.042313, "d_rot": 0.005801}
+{"type": "obs", "t": 36.2, "id": "lm6", "range": 2.57123, "bearing": 1.52895}
+{"type": "obs", "t": 36.2, "id": "lm7", "range": 3.60643, "bearing": -0.52986}
+{"type": "obs", "t": 36.2, "id": "lm8", "range": 5.54249, "bearing": 0.32055}
+{"type": "truth", "t": 36.3, "x": 18.150000000000123, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 36.3, "d_trans": 0.051834, "d_rot": 0.00585}
+{"type": "truth", "t": 36.4, "x": 18.200000000000124, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 36.4, "d_trans": 0.054517, "d_rot": 0.01036}
+{"type": "obs", "t": 36.4, "id": "lm6", "range": 2.45109, "bearing": 1.70525}
+{"type": "obs", "t": 36.4, "id": "lm7", "range": 3.76653, "bearing": -0.59835}
+{"type": "obs", "t": 36.4, "id": "lm8", "range": 5.61945, "bearing": 0.29588}
+{"type": "truth", "t": 36.5, "x": 18.250000000000124, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 36.5, "d_trans": 0.046914, "d_rot": 0.005398}
+{"type": "truth", "t": 36.6, "x": 18.300000000000125, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 36.6, "d_trans": 0.048234, "d_rot": 0.006885}
+{"type": "obs", "t": 36.6, "id": "lm6", "range": 2.63041, "bearing": 1.69359}
+{"type": "obs", "t": 36.6, "id": "lm7", "range": 3.35559, "bearing": -0.70795}
+{"type": "obs", "t": 36.6, "id": "lm8", "range": 5.45911, "bearing": 0.21272}
+{"type": "truth", "t": 36.7, "x": 18.350000000000126, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 36.7, "d_trans": 0.047597, "d_rot": 0.010376}
+{"type": "truth", "t": 36.8, "x": 18.400000000000126, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 36.8, "d_trans": 0.052529, "d_rot": 0.013468}
+{"type": "obs", "t": 36.8, "id": "lm6", "range": 2.56925, "bearing": 1.65157}
+{"type": "obs", "t": 36.8, "id": "lm7", "range": 3.23171, "bearing": -0.72515}
+{"type": "obs", "t": 36.8, "id": "lm8", "range": 5.08071, "bearing": 0.22798}
+{"type": "truth", "t": 36.9, "x": 18.450000000000127, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 36.9, "d_trans": 0.056664, "d_rot": -0.008076}
+{"type": "truth", "t": 37.0, "x": 18.500000000000128, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 37.0, "d_trans": 0.052668, "d_rot": 0.008213}
+{"type": "obs", "t": 37.0, "id": "lm6", "range": 2.4987, "bearing": 1.75413}
+{"type": "obs", "t": 37.0, "id": "lm7", "range": 2.9549, "bearing": -0.74439}
+{"type": "obs", "t": 37.0, "id": "lm8", "range": 5.30766, "bearing": 0.18768}
+{"type": "truth", "t": 37.1, "x": 18.55000000000013, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 37.1, "d_trans": 0.042622, "d_rot": 0.007219}
+{"type": "truth", "t": 37.2, "x": 18.60000000000013, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 37.2, "d_trans": 0.057695, "d_rot": 0.006561}
+{"type": "obs", "t": 37.2, "id": "lm6", "range": 2.40586, "bearing": 1.88197}
+{"type": "obs", "t": 37.2, "id": "lm7", "range": 3.11763, "bearing": -0.60288}
+{"type": "obs", "t": 37.2, "id": "lm8", "range": 5.07512, "bearing": 0.31789}
+{"type": "truth", "t": 37.3, "x": 18.65000000000013, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 37.3, "d_trans": 0.04222, "d_rot": -0.000826}
+{"type": "truth", "t": 37.4, "x": 18.70000000000013, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 37.4, "d_trans": 0.052172, "d_rot": 0.005637}
+{"type": "obs", "t": 37.4, "id": "lm6", "range": 2.43602, "bearing": 1.89957}
+{"type": "obs", "t": 37.4, "id": "lm7", "range": 3.12059, "bearing": -0.74495}
+{"type": "obs", "t": 37.4, "id": "lm8", "range": 5.11217, "bearing": 0.23534}
+{"type": "truth", "t": 37.5, "x": 18.75000000000013, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 37.5, "d_trans": 0.046268, "d_rot": 0.008144}
+{"type": "truth", "t": 37.6, "x": 18.800000000000132, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 37.6, "d_trans": 0.055675, "d_rot": -0.003656}
+{"type": "obs", "t": 37.6, "id": "lm6", "range": 2.78678, "bearing": 1.78566}
+{"type": "obs", "t": 37.6, "id": "lm7", "range": 2.8956, "bearing": -0.75385}
+{"type": "obs", "t": 37.6, "id": "lm8", "range": 4.82687, "bearing": 0.27782}
+{"type": "truth", "t": 37.7, "x": 18.850000000000133, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 37.7, "d_trans": 0.047617, "d_rot": 0.009044}
+{"type": "truth", "t": 37.8, "x": 18.900000000000134, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 37.8, "d_trans": 0.058367, "d_rot": 0.009896}
+{"type": "obs", "t": 37.8, "id": "lm6", "range": 2.93244, "bearing": 1.97171}
+{"type": "obs", "t": 37.8, "id": "lm7", "range": 2.83372, "bearing": -0.84543}
+{"type": "obs", "t": 37.8, "id": "lm8", "range": 4.9992, "bearing": 0.29424}
+{"type": "truth", "t": 37.9, "x": 18.950000000000134, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 37.9, "d_trans": 0.052798, "d_rot": 0.000172}
+{"type": "truth", "t": 38.0, "x": 19.000000000000135, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 38.0, "d_trans": 0.043716, "d_rot": 0.005075}
+{"type": "obs", "t": 38.0, "id": "lm6", "range": 2.57657, "bearing": 1.89331}
+{"type": "obs", "t": 38.0, "id": "lm7", "range": 2.93681, "bearing": -0.81961}
+{"type": "obs", "t": 38.0, "id": "lm8", "range": 4.67467, "bearing": 0.24573}
+{"type": "truth", "t": 38.1, "x": 19.050000000000136, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 38.1, "d_trans": 0.059103, "d_rot": 0.003916}
+{"type": "truth", "t": 38.2, "x": 19.100000000000136, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 38.2, "d_trans": 0.049728, "d_rot": 0.00224}
+{"type": "obs", "t": 38.2, "id": "lm6", "range": 2.60499, "bearing": 1.96978}
+{"type": "obs", "t": 38.2, "id": "lm7", "range": 2.47851, "bearing": -0.90288}
+{"type": "obs", "t": 38.2, "id": "lm8", "range": 4.41393, "bearing": 0.40266}
+{"type": "truth", "t": 38.3, "x": 19.150000000000137, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 38.3, "d_trans": 0.044922, "d_rot": 0.00254}
+{"type": "truth", "t": 38.4, "x": 19.200000000000138, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 38.4, "d_trans": 0.060666, "d_rot": 0.008398}
+{"type": "obs", "t": 38.4, "id": "lm6", "range": 2.86636, "bearing": 2.00294}
+{"type": "obs", "t": 38.4, "id": "lm7", "range": 2.78634, "bearing": -0.83302}
+{"type": "obs", "t": 38.4, "id": "lm8", "range": 4.55603, "bearing": 0.30288}
+{"type": "truth", "t": 38.5, "x": 19.25000000000014, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 38.5, "d_trans": 0.053494, "d_rot": 0.004204}
+{"type": "truth", "t": 38.6, "x": 19.30000000000014, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 38.6, "d_trans": 0.050514, "d_rot": 0.002055}
+{"type": "obs", "t": 38.6, "id": "lm6", "range": 3.054, "bearing": 1.89603}
+{"type": "obs", "t": 38.6, "id": "lm7", "range": 2.78037, "bearing": -0.83737}
+{"type": "obs", "t": 38.6, "id": "lm8", "range": 4.60874, "bearing": 0.45029}
+{"type": "truth", "t": 38.7, "x": 19.35000000000014, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 38.7, "d_trans": 0.050294, "d_rot": -0.001524}
+{"type": "truth", "t": 38.8, "x": 19.40000000000014, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 38.8, "d_trans": 0.052687, "d_rot": 0.01212}
+{"type": "obs", "t": 38.8, "id": "lm6", "range": 3.03574, "bearing": 2.26142}
+{"type": "obs", "t": 38.8, "id": "lm7", "range": 2.22134, "bearing": -0.86501}
+{"type": "obs", "t": 38.8, "id": "lm8", "range": 4.47621, "bearing": 0.34992}
+{"type": "truth", "t": 38.9, "x": 19.45000000000014, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 38.9, "d_trans": 0.049228, "d_rot": 0.003122}
+{"type": "truth", "t": 39.0, "x": 19.500000000000142, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 39.0, "d_trans": 0.050473, "d_rot": 0.005568}
+{"type": "obs", "t": 39.0, "id": "lm6", "range": 2.80981, "bearing": 2.17734}
+{"type": "obs", "t": 39.0, "id": "lm7", "range": 2.36489, "bearing": -0.9282}
+{"type": "obs", "t": 39.0, "id": "lm8", "range": 4.01505, "bearing": 0.39868}
+{"type": "truth", "t": 39.1, "x": 19.550000000000143, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 39.1, "d_trans": 0.048779, "d_rot": 0.005924}
+{"type": "truth", "t": 39.2, "x": 19.600000000000144, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 39.2, "d_trans": 0.047935, "d_rot": 0.007031}
+{"type": "obs", "t": 39.2, "id": "lm6", "range": 2.88477, "bearing": 2.23729}
+{"type": "obs", "t": 39.2, "id": "lm7", "range": 2.44362, "bearing": -1.03166}
+{"type": "obs", "t": 39.2, "id": "lm8", "range": 4.22389, "bearing": 0.4785}
+{"type": "truth", "t": 39.3, "x": 19.650000000000144, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 39.3, "d_trans": 0.053896, "d_rot": 0.00429}
+{"type": "truth", "t": 39.4, "x": 19.700000000000145, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 39.4, "d_trans": 0.047903, "d_rot": 0.000399}
+{"type": "obs", "t": 39.4, "id": "lm6", "range": 2.84844, "bearing": 2.19401}
+{"type": "obs", "t": 39.4, "id": "lm7", "range": 2.15334, "bearing": -0.99615}
+{"type": "obs", "t": 39.4, "id": "lm8", "range": 4.18684, "bearing": 0.33902}
+{"type": "truth", "t": 39.5, "x": 19.750000000000146, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 39.5, "d_trans": 0.046046, "d_rot": 0.010452}
+{"type": "truth", "t": 39.6, "x": 19.800000000000146, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 39.6, "d_trans": 0.056882, "d_rot": -0.001578}
+{"type": "obs", "t": 39.6, "id": "lm6", "range": 3.11355, "bearing": 2.25629}
+{"type": "obs", "t": 39.6, "id": "lm7", "range": 2.39619, "bearing": -1.01455}
+{"type": "obs", "t": 39.6, "id": "lm8", "range": 4.1337, "bearing": 0.42563}
+{"type": "truth", "t": 39.7, "x": 19.850000000000147, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 39.7, "d_trans": 0.054086, "d_rot": 0.005271}
+{"type": "truth", "t": 39.8, "x": 19.900000000000148, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 39.8, "d_trans": 0.043749, "d_rot": 0.008717}
+{"type": "obs", "t": 39.8, "id": "lm6", "range": 3.12771, "bearing": 2.18836}
+{"type": "obs", "t": 39.8, "id": "lm7", "range": 2.0516, "bearing": -0.89895}
+{"type": "obs", "t": 39.8, "id": "lm8", "range": 3.85597, "bearing": 0.2685}
+{"type": "truth", "t": 39.9, "x": 19.95000000000015, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 39.9, "d_trans": 0.050029, "d_rot": 0.003753}
+{"type": "truth", "t": 40.0, "x": 20.00000000000015, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 40.0, "d_trans": 0.044776, "d_rot": 0.011571}
+{"type": "obs", "t": 40.0, "id": "lm6", "range": 3.06386, "bearing": 2.2778}
+{"type": "obs", "t": 40.0, "id": "lm7", "range": 2.19217, "bearing": -1.08814}
+{"type": "obs", "t": 40.0, "id": "lm8", "range": 3.57522, "bearing": 0.51148}
+{"type": "truth", "t": 40.1, "x": 20.05000000000015, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 40.1, "d_trans": 0.048042, "d_rot": 0.003194}
+{"type": "truth", "t": 40.2, "x": 20.10000000000015, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 40.2, "d_trans": 0.045909, "d_rot": 0.0021}
+{"type": "obs", "t": 40.2, "id": "lm6", "range": 3.20388, "bearing": 2.15774}
+{"type": "obs", "t": 40.2, "id": "lm7", "range": 2.11619, "bearing": -1.24697}
+{"type": "obs", "t": 40.2, "id": "lm8", "range": 3.72091, "bearing": 0.35966}
+{"type": "truth", "t": 40.3, "x": 20.15000000000015, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 40.3, "d_trans": 0.048329, "d_rot": 0.003803}
+{"type": "truth", "t": 40.4, "x": 20.200000000000152, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 40.4, "d_trans": 0.04713, "d_rot": 0.012882}
+{"type": "obs", "t": 40.4, "id": "lm6", "range": 3.19465, "bearing": 2.40078}
+{"type": "obs", "t": 40.4, "id": "lm7", "range": 1.97837, "bearing": -1.25666}
+{"type": "obs", "t": 40.4, "id": "lm8", "range": 3.71733, "bearing": 0.48411}
+{"type": "truth", "t": 40.5, "x": 20.250000000000153, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 40.5, "d_trans": 0.053888, "d_rot": -0.004262}
+{"type": "truth", "t": 40.6, "x": 20.300000000000153, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 40.6, "d_trans": 0.059336, "d_rot": 0.003517}
+{"type": "obs", "t": 40.6, "id": "lm6", "range": 3.2036, "bearing": 2.32593}
+{"type": "obs", "t": 40.6, "id": "lm7", "range": 2.29495, "bearing": -1.29595}
+{"type": "obs", "t": 40.6, "id": "lm8", "range": 3.50123, "bearing": 0.31131}
+{"type": "truth", "t": 40.7, "x": 20.350000000000154, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 40.7, "d_trans": 0.057002, "d_rot": 0.008878}
+{"type": "truth", "t": 40.8, "x": 20.400000000000155, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 40.8, "d_trans": 0.055926, "d_rot": 0.006148}
+{"type": "obs", "t": 40.8, "id": "lm6", "range": 3.37416, "bearing": 2.27474}
+{"type": "obs", "t": 40.8, "id": "lm7", "range": 1.99991, "bearing": -1.25226}
+{"type": "obs", "t": 40.8, "id": "lm8", "range": 3.2493, "bearing": 0.39983}
+{"type": "truth", "t": 40.9, "x": 20.450000000000156, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 40.9, "d_trans": 0.054277, "d_rot": 0.012759}
+{"type": "truth", "t": 41.0, "x": 20.500000000000156, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 41.0, "d_trans": 0.062202, "d_rot": 0.00171}
+{"type": "obs", "t": 41.0, "id": "lm6", "range": 3.42053, "bearing": 2.3261}
+{"type": "obs", "t": 41.0, "id": "lm7", "range": 2.01593, "bearing": -1.21977}
+{"type": "obs", "t": 41.0, "id": "lm8", "range": 3.3472, "bearing": 0.41492}
+{"type": "truth", "t": 41.1, "x": 20.550000000000157, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 41.1, "d_trans": 0.051736, "d_rot": 0.005753}
+{"type": "truth", "t": 41.2, "x": 20.600000000000158, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 41.2, "d_trans": 0.045346, "d_rot": 0.003508}
+{"type": "obs", "t": 41.2, "id": "lm6", "range": 3.39776, "bearing": 2.38106}
+{"type": "obs", "t": 41.2, "id": "lm7", "range": 2.04083, "bearing": -1.37959}
+{"type": "obs", "t": 41.2, "id": "lm8", "range": 3.3689, "bearing": 0.49349}
+{"type": "truth", "t": 41.3, "x": 20.65000000000016, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 41.3, "d_trans": 0.048846, "d_rot": 0.006633}
+{"type": "truth", "t": 41.4, "x": 20.70000000000016, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 41.4, "d_trans": 0.05076, "d_rot": 0.002797}
+{"type": "obs", "t": 41.4, "id": "lm6", "range": 3.63088, "bearing": 2.3269}
+{"type": "obs", "t": 41.4, "id": "lm7", "range": 1.90041, "bearing": -1.40016}
+{"type": "obs", "t": 41.4, "id": "lm8", "range": 3.05711, "bearing": 0.48534}
+{"type": "truth", "t": 41.5, "x": 20.75000000000016, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 41.5, "d_trans": 0.04499, "d_rot": 0.00572}
+{"type": "truth", "t": 41.6, "x": 20.80000000000016, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 41.6, "d_trans": 0.053319, "d_rot": 0.00385}
+{"type": "obs", "t": 41.6, "id": "lm6", "range": 3.7592, "bearing": 2.33981}
+{"type": "obs", "t": 41.6, "id": "lm7", "range": 2.07842, "bearing": -1.42976}
+{"type": "obs", "t": 41.6, "id": "lm8", "range": 3.24858, "bearing": 0.61181}
+{"type": "truth", "t": 41.7, "x": 20.85000000000016, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 41.7, "d_trans": 0.053955, "d_rot": -0.000971}
+{"type": "truth", "t": 41.8, "x": 20.900000000000162, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 41.8, "d_trans": 0.050417, "d_rot": 0.007799}
+{"type": "obs", "t": 41.8, "id": "lm6", "range": 3.65451, "bearing": 2.29011}
+{"type": "obs", "t": 41.8, "id": "lm7", "range": 2.16803, "bearing": -1.45418}
+{"type": "obs", "t": 41.8, "id": "lm8", "range": 2.80772, "bearing": 0.57383}
+{"type": "truth", "t": 41.9, "x": 20.950000000000163, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 41.9, "d_trans": 0.045865, "d_rot": 0.010158}
+{"type": "truth", "t": 42.0, "x": 21.000000000000163, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 42.0, "d_trans": 0.056519, "d_rot": 0.005626}
+{"type": "obs", "t": 42.0, "id": "lm6", "range": 3.93255, "bearing": 2.43736}
+{"type": "obs", "t": 42.0, "id": "lm7", "range": 1.78494, "bearing": -1.54991}
+{"type": "obs", "t": 42.0, "id": "lm8", "range": 3.06772, "bearing": 0.52516}
+{"type": "truth", "t": 42.1, "x": 21.050000000000164, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 42.1, "d_trans": 0.046287, "d_rot": -0.004669}
+{"type": "truth", "t": 42.2, "x": 21.100000000000165, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 42.2, "d_trans": 0.051246, "d_rot": 0.000712}
+{"type": "obs", "t": 42.2, "id": "lm6", "range": 3.86141, "bearing": 2.42189}
+{"type": "obs", "t": 42.2, "id": "lm7", "range": 2.00557, "bearing": -1.73653}
+{"type": "obs", "t": 42.2, "id": "lm8", "range": 2.81263, "bearing": 0.568}
+{"type": "truth", "t": 42.3, "x": 21.150000000000166, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 42.3, "d_trans": 0.047351, "d_rot": 0.007429}
+{"type": "truth", "t": 42.4, "x": 21.200000000000166, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 42.4, "d_trans": 0.037429, "d_rot": -0.001009}
+{"type": "obs", "t": 42.4, "id": "lm6", "range": 4.08874, "bearing": 2.46722}
+{"type": "obs", "t": 42.4, "id": "lm7", "range": 1.98805, "bearing": -1.58348}
+{"type": "obs", "t": 42.4, "id": "lm8", "range": 2.5651, "bearing": 0.44028}
+{"type": "truth", "t": 42.5, "x": 21.250000000000167, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 42.5, "d_trans": 0.046536, "d_rot": 0.001999}
+{"type": "truth", "t": 42.6, "x": 21.300000000000168, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 42.6, "d_trans": 0.056216, "d_rot": 0.009532}
+{"type": "obs", "t": 42.6, "id": "lm6", "range": 4.42776, "bearing": 2.42757}
+{"type": "obs", "t": 42.6, "id": "lm7", "range": 2.15531, "bearing": -1.68804}
+{"type": "obs", "t": 42.6, "id": "lm8", "range": 2.56771, "bearing": 0.63129}
+{"type": "truth", "t": 42.7, "x": 21.35000000000017, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 42.7, "d_trans": 0.044992, "d_rot": 0.002043}
+{"type": "truth", "t": 42.8, "x": 21.40000000000017, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 42.8, "d_trans": 0.047379, "d_rot": 0.007215}
+{"type": "obs", "t": 42.8, "id": "lm6", "range": 3.97966, "bearing": 2.47287}
+{"type": "obs", "t": 42.8, "id": "lm7", "range": 1.85926, "bearing": -1.75961}
+{"type": "obs", "t": 42.8, "id": "lm8", "range": 2.44142, "bearing": 0.64293}
+{"type": "truth", "t": 42.9, "x": 21.45000000000017, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 42.9, "d_trans": 0.04936, "d_rot": 0.015876}
+{"type": "truth", "t": 43.0, "x": 21.50000000000017, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 43.0, "d_trans": 0.04355, "d_rot": 0.012176}
+{"type": "obs", "t": 43.0, "id": "lm6", "range": 4.28728, "bearing": 2.59833}
+{"type": "obs", "t": 43.0, "id": "lm7", "range": 2.00112, "bearing": -1.87264}
+{"type": "obs", "t": 43.0, "id": "lm8", "range": 2.48234, "bearing": 0.63808}
+{"type": "truth", "t": 43.1, "x": 21.55000000000017, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 43.1, "d_trans": 0.048477, "d_rot": 0.008449}
+{"type": "truth", "t": 43.2, "x": 21.600000000000172, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 43.2, "d_trans": 0.047401, "d_rot": 0.003708}
+{"type": "obs", "t": 43.2, "id": "lm6", "range": 4.69911, "bearing": 2.50923}
+{"type": "obs", "t": 43.2, "id": "lm7", "range": 2.24704, "bearing": -2.01362}
+{"type": "obs", "t": 43.2, "id": "lm8", "range": 2.5694, "bearing": 0.53437}
+{"type": "truth", "t": 43.3, "x": 21.650000000000173, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 43.3, "d_trans": 0.055309, "d_rot": 0.006179}
+{"type": "truth", "t": 43.4, "x": 21.700000000000173, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 43.4, "d_trans": 0.048738, "d_rot": 0.014598}
+{"type": "obs", "t": 43.4, "id": "lm6", "range": 4.52239, "bearing": 2.51277}
+{"type": "obs", "t": 43.4, "id": "lm7", "range": 2.2051, "bearing": -1.85613}
+{"type": "obs", "t": 43.4, "id": "lm8", "range": 2.58377, "bearing": 0.82696}
+{"type": "truth", "t": 43.5, "x": 21.750000000000174, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 43.5, "d_trans": 0.051328, "d_rot": 0.006628}
+{"type": "truth", "t": 43.6, "x": 21.800000000000175, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 43.6, "d_trans": 0.04274, "d_rot": 0.007939}
+{"type": "obs", "t": 43.6, "id": "lm6", "range": 4.49341, "bearing": 2.57109}
+{"type": "obs", "t": 43.6, "id": "lm7", "range": 2.12797, "bearing": -1.98014}
+{"type": "obs", "t": 43.6, "id": "lm8", "range": 2.16763, "bearing": 0.67289}
+{"type": "truth", "t": 43.7, "x": 21.850000000000176, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 43.7, "d_trans": 0.046624, "d_rot": 0.003892}
+{"type": "truth", "t": 43.8, "x": 21.900000000000176, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 43.8, "d_trans": 0.048211, "d_rot": 0.004506}
+{"type": "obs", "t": 43.8, "id": "lm6", "range": 4.56859, "bearing": 2.65791}
+{"type": "obs", "t": 43.8, "id": "lm7", "range": 2.07388, "bearing": -1.97638}
+{"type": "obs", "t": 43.8, "id": "lm8", "range": 2.39703, "bearing": 0.75169}
+{"type": "truth", "t": 43.9, "x": 21.950000000000177, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 43.9, "d_trans": 0.056067, "d_rot": -0.000918}
+{"type": "truth", "t": 44.0, "x": 22.000000000000178, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 44.0, "d_trans": 0.034704, "d_rot": 0.000188}
+{"type": "obs", "t": 44.0, "id": "lm6", "range": 4.66111, "bearing": 2.54996}
+{"type": "obs", "t": 44.0, "id": "lm7", "range": 2.32085, "bearing": -2.06538}
+{"type": "obs", "t": 44.0, "id": "lm8", "range": 2.10235, "bearing": 0.78298}
+{"type": "truth", "t": 44.1, "x": 22.05000000000018, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 44.1, "d_trans": 0.049858, "d_rot": 0.000772}
+{"type": "truth", "t": 44.2, "x": 22.10000000000018, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 44.2, "d_trans": 0.048, "d_rot": 0.012956}
+{"type": "obs", "t": 44.2, "id": "lm6", "range": 4.6725, "bearing": 2.58476}
+{"type": "obs", "t": 44.2, "id": "lm7", "range": 2.32192, "bearing": -2.00954}
+{"type": "obs", "t": 44.2, "id": "lm8", "range": 2.07848, "bearing": 0.83995}
+{"type": "truth", "t": 44.3, "x": 22.15000000000018, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 44.3, "d_trans": 0.052959, "d_rot": 0.010334}
+{"type": "truth", "t": 44.4, "x": 22.20000000000018, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 44.4, "d_trans": 0.047796, "d_rot": 0.004449}
+{"type": "obs", "t": 44.4, "id": "lm6", "range": 4.80975, "bearing": 2.58396}
+{"type": "obs", "t": 44.4, "id": "lm7", "range": 2.30562, "bearing": -2.02952}
+{"type": "obs", "t": 44.4, "id": "lm8", "range": 1.91828, "bearing": 0.66472}
+{"type": "truth", "t": 44.5, "x": 22.25000000000018, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 44.5, "d_trans": 0.055756, "d_rot": 0.009136}
+{"type": "truth", "t": 44.6, "x": 22.300000000000182, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 44.6, "d_trans": 0.05302, "d_rot": 0.00236}
+{"type": "obs", "t": 44.6, "id": "lm6", "range": 4.97974, "bearing": 2.6604}
+{"type": "obs", "t": 44.6, "id": "lm7", "range": 2.50706, "bearing": -2.06749}
+{"type": "obs", "t": 44.6, "id": "lm8", "range": 2.06157, "bearing": 0.92586}
+{"type": "truth", "t": 44.7, "x": 22.350000000000183, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 44.7, "d_trans": 0.040581, "d_rot": -0.001976}
+{"type": "truth", "t": 44.8, "x": 22.400000000000183, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 44.8, "d_trans": 0.052454, "d_rot": 0.007606}
+{"type": "obs", "t": 44.8, "id": "lm6", "range": 4.91702, "bearing": 2.48011}
+{"type": "obs", "t": 44.8, "id": "lm7", "range": 2.60546, "bearing": -2.19369}
+{"type": "obs", "t": 44.8, "id": "lm8", "range": 1.92863, "bearing": 0.90545}
+{"type": "truth", "t": 44.9, "x": 22.450000000000184, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 44.9, "d_trans": 0.057642, "d_rot": 0.004494}
+{"type": "truth", "t": 45.0, "x": 22.500000000000185, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 45.0, "d_trans": 0.052568, "d_rot": 0.009692}
+{"type": "obs", "t": 45.0, "id": "lm6", "range": 5.25809, "bearing": 2.67198}
+{"type": "obs", "t": 45.0, "id": "lm7", "range": 2.25118, "bearing": -2.06055}
+{"type": "obs", "t": 45.0, "id": "lm8", "range": 1.72166, "bearing": 0.99942}
+{"type": "truth", "t": 45.1, "x": 22.550000000000185, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 45.1, "d_trans": 0.051936, "d_rot": 0.008909}
+{"type": "truth", "t": 45.2, "x": 22.600000000000186, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 45.2, "d_trans": 0.055031, "d_rot": -0.001045}
+{"type": "obs", "t": 45.2, "id": "lm6", "range": 5.35056, "bearing": 2.58408}
+{"type": "obs", "t": 45.2, "id": "lm7", "range": 2.71194, "bearing": -2.22787}
+{"type": "obs", "t": 45.2, "id": "lm8", "range": 1.94146, "bearing": 0.99202}
+{"type": "truth", "t": 45.3, "x": 22.650000000000187, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 45.3, "d_trans": 0.04835, "d_rot": 0.007998}
+{"type": "truth", "t": 45.4, "x": 22.700000000000188, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 45.4, "d_trans": 0.044398, "d_rot": 0.014799}
+{"type": "obs", "t": 45.4, "id": "lm6", "range": 5.42125, "bearing": 2.57251}
+{"type": "obs", "t": 45.4, "id": "lm7", "range": 2.78327, "bearing": -2.31496}
+{"type": "obs", "t": 45.4, "id": "lm8", "range": 1.75482, "bearing": 1.2079}
+{"type": "truth", "t": 45.5, "x": 22.75000000000019, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 45.5, "d_trans": 0.049829, "d_rot": 0.006658}
+{"type": "truth", "t": 45.6, "x": 22.80000000000019, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 45.6, "d_trans": 0.040735, "d_rot": -0.00037}
+{"type": "obs", "t": 45.6, "id": "lm6", "range": 5.38561, "bearing": 2.66665}
+{"type": "obs", "t": 45.6, "id": "lm7", "range": 2.83718, "bearing": -2.28032}
+{"type": "obs", "t": 45.6, "id": "lm8", "range": 1.57237, "bearing": 1.08767}
+{"type": "truth", "t": 45.7, "x": 22.85000000000019, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 45.7, "d_trans": 0.054357, "d_rot": 0.006029}
+{"type": "truth", "t": 45.8, "x": 22.90000000000019, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 45.8, "d_trans": 0.068067, "d_rot": 0.005668}
+{"type": "obs", "t": 45.8, "id": "lm6", "range": 5.3814, "bearing": 2.57196}
+{"type": "obs", "t": 45.8, "id": "lm7", "range": 2.62885, "bearing": -2.37814}
+{"type": "obs", "t": 45.8, "id": "lm8", "range": 1.33741, "bearing": 1.22329}
+{"type": "truth", "t": 45.9, "x": 22.95000000000019, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 45.9, "d_trans": 0.055466, "d_rot": 0.000785}
+{"type": "truth", "t": 46.0, "x": 23.000000000000192, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 46.0, "d_trans": 0.060053, "d_rot": 8.9e-05}
+{"type": "obs", "t": 46.0, "id": "lm6", "range": 5.69544, "bearing": 2.73067}
+{"type": "obs", "t": 46.0, "id": "lm7", "range": 2.7888, "bearing": -2.37171}
+{"type": "obs", "t": 46.0, "id": "lm8", "range": 1.46464, "bearing": 1.33797}
+{"type": "truth", "t": 46.1, "x": 23.050000000000193, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 46.1, "d_trans": 0.047624, "d_rot": -0.003279}
+{"type": "truth", "t": 46.2, "x": 23.100000000000193, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 46.2, "d_trans": 0.048394, "d_rot": 0.002221}
+{"type": "obs", "t": 46.2, "id": "lm6", "range": 5.63416, "bearing": 2.62443}
+{"type": "obs", "t": 46.2, "id": "lm7", "range": 2.76871, "bearing": -2.41136}
+{"type": "obs", "t": 46.2, "id": "lm8", "range": 1.74697, "bearing": 1.4539}
+{"type": "truth", "t": 46.3, "x": 23.150000000000194, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 46.3, "d_trans": 0.05615, "d_rot": -0.001195}
+{"type": "truth", "t": 46.4, "x": 23.200000000000195, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 46.4, "d_trans": 0.044988, "d_rot": -0.001192}
+{"type": "obs", "t": 46.4, "id": "lm6", "range": 5.82527, "bearing": 2.67584}
+{"type": "obs", "t": 46.4, "id": "lm7", "range": 3.27721, "bearing": -2.31123}
+{"type": "obs", "t": 46.4, "id": "lm8", "range": 1.42407, "bearing": 1.37541}
+{"type": "truth", "t": 46.5, "x": 23.250000000000195, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 46.5, "d_trans": 0.057122, "d_rot": 0.001262}
+{"type": "truth", "t": 46.6, "x": 23.300000000000196, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 46.6, "d_trans": 0.053256, "d_rot": 0.002592}
+{"type": "obs", "t": 46.6, "id": "lm6", "range": 5.80919, "bearing": 2.75211}
+{"type": "obs", "t": 46.6, "id": "lm7", "range": 2.87217, "bearing": -2.46275}
+{"type": "obs", "t": 46.6, "id": "lm8", "range": 1.55595, "bearing": 1.45823}
+{"type": "truth", "t": 46.7, "x": 23.350000000000197, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 46.7, "d_trans": 0.045577, "d_rot": 0.001085}
+{"type": "truth", "t": 46.8, "x": 23.400000000000198, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 46.8, "d_trans": 0.047333, "d_rot": 0.005924}
+{"type": "obs", "t": 46.8, "id": "lm6", "range": 6.18269, "bearing": 2.69829}
+{"type": "obs", "t": 46.8, "id": "lm7", "range": 3.08381, "bearing": -2.3083}
+{"type": "obs", "t": 46.8, "id": "lm8", "range": 1.49143, "bearing": 1.59412}
+{"type": "truth", "t": 46.9, "x": 23.4500000000002, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 46.9, "d_trans": 0.050335, "d_rot": 0.000587}
+{"type": "truth", "t": 47.0, "x": 23.5000000000002, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 47.0, "d_trans": 0.056156, "d_rot": -0.003694}
+{"type": "obs", "t": 47.0, "id": "lm7", "range": 2.98927, "bearing": -2.42014}
+{"type": "obs", "t": 47.0, "id": "lm8", "range": 1.53373, "bearing": 1.62626}
+{"type": "truth", "t": 47.1, "x": 23.5500000000002, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 47.1, "d_trans": 0.050011, "d_rot": 0.003093}
+{"type": "truth", "t": 47.2, "x": 23.6000000000002, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 47.2, "d_trans": 0.050347, "d_rot": 0.008666}
+{"type": "obs", "t": 47.2, "id": "lm7", "range": 3.34061, "bearing": -2.45877}
+{"type": "obs", "t": 47.2, "id": "lm8", "range": 1.29666, "bearing": 1.70513}
+{"type": "truth", "t": 47.3, "x": 23.6500000000002, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 47.3, "d_trans": 0.052441, "d_rot": 0.006616}
+{"type": "truth", "t": 47.4, "x": 23.700000000000202, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 47.4, "d_trans": 0.052411, "d_rot": 0.008479}
+{"type": "obs", "t": 47.4, "id": "lm7", "range": 3.37534, "bearing": -2.64254}
+{"type": "obs", "t": 47.4, "id": "lm8", "range": 1.4362, "bearing": 1.7466}
+{"type": "truth", "t": 47.5, "x": 23.750000000000203, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 47.5, "d_trans": 0.047953, "d_rot": 0.013448}
+{"type": "truth", "t": 47.6, "x": 23.800000000000203, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 47.6, "d_trans": 0.046178, "d_rot": 0.016648}
+{"type": "obs", "t": 47.6, "id": "lm7", "range": 3.52041, "bearing": -2.60359}
+{"type": "obs", "t": 47.6, "id": "lm8", "range": 1.5115, "bearing": 1.88558}
+{"type": "truth", "t": 47.7, "x": 23.850000000000204, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 47.7, "d_trans": 0.052523, "d_rot": 0.002687}
+{"type": "truth", "t": 47.8, "x": 23.900000000000205, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 47.8, "d_trans": 0.059851, "d_rot": 0.000874}
+{"type": "obs", "t": 47.8, "id": "lm7", "range": 3.18496, "bearing": -2.54995}
+{"type": "obs", "t": 47.8, "id": "lm8", "range": 1.23812, "bearing": 1.98987}
+{"type": "truth", "t": 47.9, "x": 23.950000000000205, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 47.9, "d_trans": 0.047825, "d_rot": 0.002533}
+{"type": "truth", "t": 48.0, "x": 24.000000000000206, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 48.0, "d_trans": 0.053027, "d_rot": 0.002172}
+{"type": "obs", "t": 48.0, "id": "lm7", "range": 3.44543, "bearing": -2.62235}
+{"type": "obs", "t": 48.0, "id": "lm8", "range": 1.74664, "bearing": 1.90408}
+{"type": "truth", "t": 48.1, "x": 24.050000000000207, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 48.1, "d_trans": 0.044691, "d_rot": 0.006262}
+{"type": "truth", "t": 48.2, "x": 24.100000000000207, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 48.2, "d_trans": 0.05657, "d_rot": 0.006295}
+{"type": "obs", "t": 48.2, "id": "lm7", "range": 3.8692, "bearing": -2.52402}
+{"type": "obs", "t": 48.2, "id": "lm8", "range": 1.7556, "bearing": 1.85605}
+{"type": "truth", "t": 48.3, "x": 24.150000000000208, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 48.3, "d_trans": 0.051065, "d_rot": 0.001786}
+{"type": "truth", "t": 48.4, "x": 24.20000000000021, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 48.4, "d_trans": 0.038626, "d_rot": 0.008176}
+{"type": "obs", "t": 48.4, "id": "lm7", "range": 3.83025, "bearing": -2.54103}
+{"type": "obs", "t": 48.4, "id": "lm8", "range": 1.56503, "bearing": 2.00867}
+{"type": "truth", "t": 48.5, "x": 24.25000000000021, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 48.5, "d_trans": 0.056201, "d_rot": 0.003064}
+{"type": "truth", "t": 48.6, "x": 24.30000000000021, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 48.6, "d_trans": 0.05772, "d_rot": 0.013058}
+{"type": "obs", "t": 48.6, "id": "lm7", "range": 3.75163, "bearing": -2.59349}
+{"type": "obs", "t": 48.6, "id": "lm8", "range": 1.67165, "bearing": 2.08595}
+{"type": "truth", "t": 48.7, "x": 24.35000000000021, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 48.7, "d_trans": 0.045089, "d_rot": -0.004574}
+{"type": "truth", "t": 48.8, "x": 24.40000000000021, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 48.8, "d_trans": 0.052247, "d_rot": -0.003896}
+{"type": "obs", "t": 48.8, "id": "lm7", "range": 4.06157, "bearing": -2.4491}
+{"type": "obs", "t": 48.8, "id": "lm8", "range": 1.84187, "bearing": 2.10675}
+{"type": "truth", "t": 48.9, "x": 24.450000000000212, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 48.9, "d_trans": 0.047172, "d_rot": 0.006076}
+{"type": "truth", "t": 49.0, "x": 24.500000000000213, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 49.0, "d_trans": 0.040498, "d_rot": 0.006124}
+{"type": "obs", "t": 49.0, "id": "lm7", "range": 3.95151, "bearing": -2.64373}
+{"type": "obs", "t": 49.0, "id": "lm8", "range": 2.10215, "bearing": 2.22083}
+{"type": "truth", "t": 49.1, "x": 24.550000000000214, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 49.1, "d_trans": 0.04489, "d_rot": 0.003933}
+{"type": "truth", "t": 49.2, "x": 24.600000000000215, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 49.2, "d_trans": 0.041458, "d_rot": 0.003379}
+{"type": "obs", "t": 49.2, "id": "lm7", "range": 3.99349, "bearing": -2.66744}
+{"type": "obs", "t": 49.2, "id": "lm8", "range": 2.0898, "bearing": 2.19289}
+{"type": "truth", "t": 49.3, "x": 24.650000000000215, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 49.3, "d_trans": 0.053104, "d_rot": 0.013425}
+{"type": "truth", "t": 49.4, "x": 24.700000000000216, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 49.4, "d_trans": 0.051705, "d_rot": -0.005491}
+{"type": "obs", "t": 49.4, "id": "lm7", "range": 4.31481, "bearing": -2.62227}
+{"type": "obs", "t": 49.4, "id": "lm8", "range": 1.92199, "bearing": 2.20478}
+{"type": "truth", "t": 49.5, "x": 24.750000000000217, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 49.5, "d_trans": 0.050519, "d_rot": -0.000782}
+{"type": "truth", "t": 49.6, "x": 24.800000000000217, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 49.6, "d_trans": 0.049093, "d_rot": 0.00276}
+{"type": "obs", "t": 49.6, "id": "lm7", "range": 4.08816, "bearing": -2.53795}
+{"type": "obs", "t": 49.6, "id": "lm8", "range": 2.05106, "bearing": 2.33453}
+{"type": "truth", "t": 49.7, "x": 24.850000000000218, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 49.7, "d_trans": 0.068815, "d_rot": 0.009731}
+{"type": "truth", "t": 49.8, "x": 24.90000000000022, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 49.8, "d_trans": 0.04496, "d_rot": 0.002808}
+{"type": "obs", "t": 49.8, "id": "lm7", "range": 4.39818, "bearing": -2.75949}
+{"type": "obs", "t": 49.8, "id": "lm8", "range": 1.91152, "bearing": 2.28533}
+{"type": "truth", "t": 49.9, "x": 24.95000000000022, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 49.9, "d_trans": 0.045561, "d_rot": 0.005562}
+{"type": "truth", "t": 50.0, "x": 25.00000000000022, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 50.0, "d_trans": 0.048386, "d_rot": 0.014996}
+{"type": "obs", "t": 50.0, "id": "lm7", "range": 4.33598, "bearing": -2.65122}
+{"type": "obs", "t": 50.0, "id": "lm8", "range": 2.02127, "bearing": 2.35851}
+{"type": "truth", "t": 50.1, "x": 25.05000000000022, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 50.1, "d_trans": 0.045075, "d_rot": 0.004495}
+{"type": "truth", "t": 50.2, "x": 25.10000000000022, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 50.2, "d_trans": 0.047914, "d_rot": 0.005761}
+{"type": "obs", "t": 50.2, "id": "lm7", "range": 4.50182, "bearing": -2.67015}
+{"type": "obs", "t": 50.2, "id": "lm8", "range": 2.18054, "bearing": 2.44209}
+{"type": "truth", "t": 50.3, "x": 25.150000000000222, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 50.3, "d_trans": 0.050017, "d_rot": -0.005418}
+{"type": "truth", "t": 50.4, "x": 25.200000000000223, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 50.4, "d_trans": 0.047777, "d_rot": 0.006382}
+{"type": "obs", "t": 50.4, "id": "lm7", "range": 4.69731, "bearing": -2.71163}
+{"type": "obs", "t": 50.4, "id": "lm8", "range": 2.33757, "bearing": 2.3895}
+{"type": "truth", "t": 50.5, "x": 25.250000000000224, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 50.5, "d_trans": 0.053663, "d_rot": 0.008268}
+{"type": "truth", "t": 50.6, "x": 25.300000000000225, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 50.6, "d_trans": 0.043272, "d_rot": 0.002962}
+{"type": "obs", "t": 50.6, "id": "lm7", "range": 4.65445, "bearing": -2.70675}
+{"type": "obs", "t": 50.6, "id": "lm8", "range": 2.60129, "bearing": 2.45351}
+{"type": "truth", "t": 50.7, "x": 25.350000000000225, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 50.7, "d_trans": 0.049041, "d_rot": -0.000577}
+{"type": "truth", "t": 50.8, "x": 25.400000000000226, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 50.8, "d_trans": 0.051078, "d_rot": 0.003797}
+{"type": "obs", "t": 50.8, "id": "lm7", "range": 4.89016, "bearing": -2.81519}
+{"type": "obs", "t": 50.8, "id": "lm8", "range": 2.35581, "bearing": 2.40731}
+{"type": "truth", "t": 50.9, "x": 25.450000000000227, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 50.9, "d_trans": 0.051539, "d_rot": 0.008983}
+{"type": "truth", "t": 51.0, "x": 25.500000000000227, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 51.0, "d_trans": 0.041837, "d_rot": 0.008001}
+{"type": "obs", "t": 51.0, "id": "lm7", "range": 4.93927, "bearing": -2.57989}
+{"type": "obs", "t": 51.0, "id": "lm8", "range": 2.60035, "bearing": 2.4645}
+{"type": "truth", "t": 51.1, "x": 25.550000000000228, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 51.1, "d_trans": 0.058282, "d_rot": 0.002157}
+{"type": "truth", "t": 51.2, "x": 25.60000000000023, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 51.2, "d_trans": 0.055705, "d_rot": 0.009377}
+{"type": "obs", "t": 51.2, "id": "lm7", "range": 4.86265, "bearing": -2.76819}
+{"type": "obs", "t": 51.2, "id": "lm8", "range": 2.99411, "bearing": 2.53697}
+{"type": "truth", "t": 51.3, "x": 25.65000000000023, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 51.3, "d_trans": 0.059245, "d_rot": 0.000749}
+{"type": "truth", "t": 51.4, "x": 25.70000000000023, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 51.4, "d_trans": 0.050882, "d_rot": 0.007926}
+{"type": "obs", "t": 51.4, "id": "lm7", "range": 5.19692, "bearing": -2.75633}
+{"type": "obs", "t": 51.4, "id": "lm8", "range": 2.50584, "bearing": 2.40048}
+{"type": "truth", "t": 51.5, "x": 25.75000000000023, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 51.5, "d_trans": 0.053719, "d_rot": 0.00869}
+{"type": "truth", "t": 51.6, "x": 25.80000000000023, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 51.6, "d_trans": 0.04994, "d_rot": 0.00328}
+{"type": "obs", "t": 51.6, "id": "lm7", "range": 5.35977, "bearing": -2.66204}
+{"type": "obs", "t": 51.6, "id": "lm8", "range": 2.78009, "bearing": 2.53535}
+{"type": "truth", "t": 51.7, "x": 25.850000000000232, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 51.7, "d_trans": 0.053962, "d_rot": 0.007997}
+{"type": "truth", "t": 51.8, "x": 25.900000000000233, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 51.8, "d_trans": 0.046817, "d_rot": 0.008}
+{"type": "obs", "t": 51.8, "id": "lm7", "range": 5.08368, "bearing": -2.66767}
+{"type": "obs", "t": 51.8, "id": "lm8", "range": 2.92759, "bearing": 2.59177}
+{"type": "truth", "t": 51.9, "x": 25.950000000000234, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 51.9, "d_trans": 0.053659, "d_rot": 0.005155}
+{"type": "truth", "t": 52.0, "x": 26.000000000000234, "y": 0.0, "theta": 0.0}
+{"type": "odom", "t": 52.0, "d_trans": 0.057066, "d_rot": 0.010409}
+{"type": "obs", "t": 52.0, "id": "lm7", "range": 5.51695, "bearing": -2.85404}
+{"type": "obs", "t": 52.0, "id": "lm8", "range": 2.72435, "bearing": 2.62743}
